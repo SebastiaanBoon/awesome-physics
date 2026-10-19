@@ -45,9 +45,6 @@ LANGS = {
             "contribute": "Contribute",
         },
         "readme_path": "README.md",
-        "switch_label": "Português (BR)",
-        "switch_href": "pt-BR/",
-        "switch_hreflang": "pt-BR",
         "sections": "Sections",
         "search": "Search {total} resources…",
         "search_aria": "Search resources",
@@ -88,9 +85,6 @@ LANGS = {
             "contribute": "Contribuir",
         },
         "readme_path": "README.pt-BR.md",
-        "switch_label": "English",
-        "switch_href": "../",
-        "switch_hreflang": "en",
         "sections": "Seções",
         "search": "Buscar {total} recursos…",
         "search_aria": "Buscar recursos",
@@ -114,6 +108,21 @@ LANGS = {
         "footer_source": "fonte",
     },
 }
+
+# Language selector: every entry links to the equivalent page in that language,
+# using paths relative to the page being built.
+LANGUAGE_OPTIONS = {
+    "en": [
+        {"code": "en", "label": "English", "href": "./"},
+        {"code": "pt-BR", "label": "Português (BR)", "href": "pt-BR/"},
+    ],
+    "pt-BR": [
+        {"code": "en", "label": "English", "href": "../"},
+        {"code": "pt-BR", "label": "Português (BR)", "href": "./"},
+    ],
+}
+
+ALTERNATES = {"en": "pt-BR", "pt-BR": "en"}
 
 FAVICON = (
     "data:image/svg+xml,"
@@ -183,6 +192,20 @@ def build(source: pathlib.Path, lang: str) -> str:
     licenses = data.get("license", {})
     readme_url = f"{REPO_URL}/blob/main/{strings['readme_path']}"
 
+    options = LANGUAGE_OPTIONS[lang]
+    other = ALTERNATES[lang]
+    other_href = next(option["href"] for option in options if option["code"] == other)
+    switch_parts = []
+    for option in options:
+        active = option["code"] == lang
+        class_name = "btn lang active" if active else "btn lang"
+        aria = ' aria-current="true"' if active else ""
+        switch_parts.append(
+            f'<a class="{class_name}" href="{esc(option["href"])}" '
+            f'hreflang="{esc(option["code"])}"{aria}>{esc(option["label"])}</a>'
+        )
+    switch_html = "".join(switch_parts)
+
     return f"""<!DOCTYPE html>
 <html lang="{esc(strings['html_lang'])}">
 <head>
@@ -193,7 +216,7 @@ def build(source: pathlib.Path, lang: str) -> str:
 <meta property="og:title" content="{esc(strings['title'])}">
 <meta property="og:description" content="{esc(strings['meta_description'].format(total=total))}">
 <meta property="og:type" content="website">
-<link rel="alternate" hreflang="{esc(strings['switch_hreflang'])}" href="{esc(strings['switch_href'])}">
+<link rel="alternate" hreflang="{esc(other)}" href="{esc(other_href)}">
 <link rel="icon" href="{FAVICON}">
 <style>
 :root {{
@@ -245,7 +268,11 @@ h1 .emoji {{ -webkit-text-fill-color: initial; }}
   border-radius: 999px; background: var(--panel); color: var(--text); font-size: .9rem;
 }}
 .btn:hover {{ text-decoration: none; border-color: var(--accent); color: var(--accent); }}
-.btn.lang {{ border-color: var(--accent); color: var(--accent); font-weight: 600; }}
+.langswitch {{ display: inline-flex; border: 1px solid var(--accent); border-radius: 999px; overflow: hidden; }}
+.langswitch .btn.lang {{ border: none; border-radius: 0; font-size: .9rem; padding: .5rem .9rem; color: var(--accent); }}
+.langswitch .btn.lang + .btn.lang {{ border-left: 1px solid var(--accent); }}
+.langswitch .btn.lang.active {{ background: var(--accent); color: #fff; font-weight: 600; }}
+.langswitch .btn.lang.active:hover {{ color: #fff; text-decoration: none; }}
 .layout {{ max-width: 1100px; margin: 0 auto; padding: 1.5rem 1.25rem 4rem; display: grid; gap: 2rem; }}
 @media (min-width: 900px) {{ .layout {{ grid-template-columns: 260px 1fr; align-items: start; }} }}
 aside {{ position: sticky; top: 1rem; max-height: calc(100vh - 2rem); overflow: auto; }}
@@ -306,7 +333,7 @@ footer .inner {{ max-width: 1100px; margin: 0 auto; display: flex; flex-wrap: wr
       <a class="btn" href="{readme_url}">{esc(strings['badges']['readme'])}</a>
       <a class="btn" href="{REPO_URL}/blob/main/dev/feeds.opml">{esc(strings['badges']['opml'])}</a>
       <a class="btn" href="{REPO_URL}/blob/main/CONTRIBUTING.md">{esc(strings['badges']['contribute'])}</a>
-      <a class="btn lang" href="{esc(strings['switch_href'])}" hreflang="{esc(strings['switch_hreflang'])}">{esc(strings['switch_label'])}</a>
+      <span class="langswitch" role="group" aria-label="Language / Idioma">{switch_html}</span>
     </div>
   </div>
 </header>

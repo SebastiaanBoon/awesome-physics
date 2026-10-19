@@ -60,7 +60,11 @@ h1 .emoji { -webkit-text-fill-color: initial; }
   border-radius: 999px; background: var(--panel); color: var(--text); font-size: .9rem;
 }
 .btn:hover { text-decoration: none; border-color: var(--accent); color: var(--accent); }
-.btn.lang { border-color: var(--accent); color: var(--accent); font-weight: 600; }
+.langswitch { display: inline-flex; border: 1px solid var(--accent); border-radius: 999px; overflow: hidden; }
+.langswitch .btn.lang { border: none; border-radius: 0; font-size: .9rem; padding: .5rem .9rem; color: var(--accent); }
+.langswitch .btn.lang + .btn.lang { border-left: 1px solid var(--accent); }
+.langswitch .btn.lang.active { background: var(--accent); color: #fff; font-weight: 600; }
+.langswitch .btn.lang.active:hover { color: #fff; text-decoration: none; }
 .layout { max-width: 1100px; margin: 0 auto; padding: 1.5rem 1.25rem 4rem; display: grid; gap: 2rem; }
 @media (min-width: 900px) { .layout { grid-template-columns: 260px 1fr; align-items: start; } }
 aside { position: sticky; top: 1rem; max-height: calc(100vh - 2rem); overflow: auto; }
@@ -121,7 +125,7 @@ footer .inner { max-width: 1100px; margin: 0 auto; display: flex; flex-wrap: wra
       <a class="btn" href="https://github.com/dionarley/awesome-physics/blob/main/README.pt-BR.md">README</a>
       <a class="btn" href="https://github.com/dionarley/awesome-physics/blob/main/dev/feeds.opml">RSS / OPML</a>
       <a class="btn" href="https://github.com/dionarley/awesome-physics/blob/main/CONTRIBUTING.md">Contribuir</a>
-      <a class="btn lang" href="../" hreflang="en">English</a>
+      <span class="langswitch" role="group" aria-label="Language / Idioma"><a class="btn lang" href="../" hreflang="en">English</a><a class="btn lang active" href="./" hreflang="pt-BR" aria-current="true">Português (BR)</a></span>
     </div>
   </div>
 </header>

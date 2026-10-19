@@ -1,4 +1,10 @@
-# Awesome Physics [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Website](https://img.shields.io/badge/website-live-6ea8fe?logo=githubpages&logoColor=white)](https://dionarley.github.io/awesome-physics/) [![pt-BR](https://img.shields.io/badge/lang-pt--BR-009c3b)](README.pt-BR.md)
+# Awesome Physics [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Website](https://img.shields.io/badge/website-live-6ea8fe?logo=githubpages&logoColor=white)](https://dionarley.github.io/awesome-physics/)
+
+<p align="center">
+  <b>Language / Idioma</b><br>
+  <a href="README.md"><img src="https://img.shields.io/badge/English-current-2b5fd9" alt="English (current)"></a>
+  <a href="README.pt-BR.md"><img src="https://img.shields.io/badge/Portugu%C3%AAs%20%28BR%29-9aa0c0" alt="Português (BR)"></a>
+</p>
 
 > A curated list of open, free, and freemium resources for learning, teaching, researching, and computing physics — plus research portals, RSS feeds, forums, data, and tools.
 
@@ -8,7 +14,7 @@ Every entry is labelled so you can tell at a glance whether it is open source, o
 
 Contributions are welcome — please read [CONTRIBUTING.md](CONTRIBUTING.md) and the development guide in [`dev/`](dev/README.md).
 
-🌐 **Live site:** <https://dionarley.github.io/awesome-physics/> · **Languages:** **English** · [Português (BR)](README.pt-BR.md)
+🌐 **Live site:** <https://dionarley.github.io/awesome-physics/>
 
 ## Contents
 
