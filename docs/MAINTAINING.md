@@ -23,7 +23,8 @@ Routine tasks for maintainers.
 3. Confirm `make validate` passes on the branch.
 4. Confirm generated artifacts are committed (`dev/resources.json`,
    `dev/resources.pt-BR.json`, and `docs/`).
-5. Squash-merge with a clear message in the imperative mood.
+5. Squash-merge using the pull request title as a
+   [Conventional Commit](../CONTRIBUTING.md#commit-messages).
 6. Optionally run `make all && make site` if the contributor forgot.
 
 ## When a link breaks
@@ -53,6 +54,9 @@ named `vMAJOR.MINOR.PATCH`:
   restructured list.
 - **MINOR** — new sections, a new language, or a large batch of resources.
 - **PATCH** — fixed links, corrected descriptions, or small additions.
+
+Group release notes by commit type: `feat` for new resources or sections, `fix`
+for broken links and corrections, and `docs` or `ci` for tooling changes.
 
 Release checklist:
 

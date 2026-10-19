@@ -25,6 +25,7 @@ dev/
 │   ├── generate_opml.py          feeds.csv -> feeds.opml
 │   ├── validate.py               Structural checks on a README.
 │   ├── check_links.py            HTTP link checker for README.md.
+│   ├── check_commit.py           Validate a Conventional Commit message.
 │   └── build_site.py             resources.json -> docs/index.html
 ├── LICENSE-CC-BY-4.0.txt         Full Creative Commons Attribution 4.0 text.
 └── LICENSE-GPL-3.0.txt           Full GNU General Public License v3 text.
@@ -54,6 +55,7 @@ library so it works in minimal environments and in CI.
 ## Common tasks
 
 ```sh
+make hooks        # install the commit-msg hook and the commit template
 make validate     # check the structure and tags of every translation
 make resources    # regenerate dev/resources.json and dev/resources.pt-BR.json
 make opml         # regenerate dev/feeds.opml from dev/data/feeds.csv
@@ -75,7 +77,8 @@ python3 dev/scripts/check_links.py --concurrency 16 --timeout 15
    (and `dev/data/feeds.csv` if you add a feed).
 2. Run `make all` and `make links`.
 3. Run `make site` to refresh the generated website.
-4. Commit the README changes and the regenerated artifacts together.
+4. Commit the README changes and the regenerated artifacts together, using a
+   [Conventional Commit](../CONTRIBUTING.md#commit-messages).
 5. Open a pull request.
 
 ## Adding an RSS or Atom feed

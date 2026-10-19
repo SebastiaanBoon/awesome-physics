@@ -1,0 +1,13 @@
+#!/bin/sh
+# Validate the commit message with dev/scripts/check_commit.py.
+#
+# Install once per clone:
+#   git config core.hooksPath .githooks
+#   # or simply: make hooks
+
+if ! command -v python3 >/dev/null 2>&1; then
+    echo "commit-msg: python3 not found; skipping the commit message check" >&2
+    exit 0
+fi
+
+exec python3 "$(dirname "$0")/../dev/scripts/check_commit.py" "$1"

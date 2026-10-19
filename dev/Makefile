@@ -6,11 +6,15 @@ PYTHON ?= python3
 SCRIPTS := $(DEVDIR)/scripts
 
 .DEFAULT_GOAL := help
-.PHONY: help validate resources opml links site all clean
+.PHONY: help hooks validate resources opml links site all clean
 
 help: ## Show this help.
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | \
 		awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-12s\033[0m %s\n", $$1, $$2}'
+
+hooks: ## Install the commit-msg hook and the commit template.
+	git config core.hooksPath .githooks
+	git config commit.template .gitmessage
 
 validate: ## Check the structure and labels of every translation.
 	$(PYTHON) $(SCRIPTS)/validate.py --readme $(DEVDIR)/../README.md

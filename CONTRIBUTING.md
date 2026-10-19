@@ -48,13 +48,61 @@ Please read the [Code of Conduct](CODE_OF_CONDUCT.md) and the
    make links
    ```
 
-6. Commit with a clear message, for example `Add QuTiP to quantum section`.
-7. Open a pull request and fill in the template.
+6. Commit with a [Conventional Commit](#commit-messages), for example
+   `feat(readme): add QuTiP to the quantum computing section`.
+7. Open a pull request whose title follows the same format, and fill in the
+   template.
 
 ## One entry per pull request
 
 Small, focused pull requests are reviewed faster. If you have many suggestions,
 open several pull requests or an issue first.
+
+## Commit messages
+
+This project follows [Conventional Commits](https://www.conventionalcommits.org/):
+
+```
+<type>(<scope>): <subject>
+
+<body>
+
+<footer>
+```
+
+- **type** — one of `feat`, `fix`, `docs`, `style`, `refactor`, `perf`, `test`,
+  `build`, `ci`, `chore`, `revert`.
+- **scope** (optional) — the area touched, for example `readme`, `pt-br`,
+  `site`, `scripts`, `data`, `feeds`, `ci`, or `deps`.
+- **subject** — imperative mood, lowercase, no trailing period, and at most 72
+  characters including the type and scope.
+- **body** (optional) — what changed and why, separated from the subject by a
+  blank line.
+- **footer** (optional) — `BREAKING CHANGE: …`, `Closes #123`, or `Refs #123`.
+
+Examples:
+
+```
+feat(readme): add QuTiP to the quantum computing section
+fix(pt-br): correct the SciX description
+docs: document the release checklist
+ci: validate commit messages in pull requests
+```
+
+A commit that only adds or removes list entries is usually `feat`; a broken
+link or a wrong description is `fix`; changes to `docs/` or to the prose of the
+README are `docs`.
+
+Merge commits, reverts, and `fixup!`/`squash!` commits are exempt.
+
+Install the local hook and the message template once per clone:
+
+```sh
+make hooks
+```
+
+The same checker (`dev/scripts/check_commit.py`) runs in CI for every commit and
+for the pull request title, because pull requests are squash-merged.
 
 ## Reporting broken links
 
