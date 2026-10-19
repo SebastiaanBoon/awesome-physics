@@ -1,4 +1,4 @@
-# Awesome Physics [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Physics [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Website](https://img.shields.io/badge/website-live-6ea8fe?logo=githubpages&logoColor=white)](https://dionarley.github.io/awesome-physics/)
 
 > A curated list of open, free, and freemium resources for learning, teaching, researching, and computing physics — plus research portals, RSS feeds, forums, data, and tools.
 
