@@ -802,8 +802,10 @@ Contributions are welcome and encouraged.
 
 ## License
 
-This work is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) (`CC BY 4.0`). See [LICENSE](LICENSE).
+**Content and documentation** — the list itself, the guides, the documentation in `docs/` and `dev/`, and the descriptions in `dev/resources.json` — are licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) (`CC BY 4.0`). See [LICENSE](LICENSE).
 
-Scripts and configuration files in this repository are dedicated to the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/). See [LICENSE-CODE](LICENSE-CODE).
+**Code and configuration** — the scripts in `dev/scripts/`, the Makefiles, and the CI configuration — are free software licensed under the [GNU General Public License, version 3 or later](https://www.gnu.org/licenses/gpl-3.0.html) (`GPL-3.0-or-later`). See [LICENSE-CODE](LICENSE-CODE).
+
+The scripts currently use only the Python standard library, so no third-party license obligations apply. Any dependency added later keeps its own license, and contributors must respect it.
 
 The full license texts are also mirrored in [`dev/`](dev/).

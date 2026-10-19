@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: GPL-3.0-or-later
 """Check every URL in README.md using only the Python standard library.
 
 Usage:

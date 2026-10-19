@@ -1,5 +1,5 @@
 # Top-level entry point.
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: GPL-3.0-or-later
 #
 # Forwards every maintenance target to dev/Makefile so that `make all`,
 # `make validate`, and the other commands work from the repository root.

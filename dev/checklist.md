@@ -32,5 +32,5 @@ Use this checklist when adding a resource or reviewing a pull request.
 ## Licensing
 
 - [ ] New prose is compatible with CC BY 4.0.
-- [ ] New code carries an `SPDX-License-Identifier: CC0-1.0` header.
+- [ ] New code carries an `SPDX-License-Identifier: GPL-3.0-or-later` header.
 - [ ] No copyrighted text was copied verbatim without permission.

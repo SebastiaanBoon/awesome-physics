@@ -1,5 +1,5 @@
 # Awesome Physics maintenance tasks.
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: GPL-3.0-or-later
 
 DEVDIR := $(patsubst %/,%,$(dir $(abspath $(lastword $(MAKEFILE_LIST)))))
 PYTHON ?= python3

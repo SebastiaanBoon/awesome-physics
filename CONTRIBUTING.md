@@ -64,8 +64,8 @@ By contributing you agree that:
 
 - Your prose contributions to the list are licensed under
   **Creative Commons Attribution 4.0 International (`CC BY 4.0`)**.
-- Your code and configuration contributions are dedicated to the public domain
-  under **Creative Commons CC0 1.0 Universal (`CC0 1.0`)**.
+- Your code and configuration contributions are licensed under the
+  **GNU General Public License, version 3 or later (`GPL-3.0-or-later`)**.
 
 Do not paste content you do not have the right to license this way.
 

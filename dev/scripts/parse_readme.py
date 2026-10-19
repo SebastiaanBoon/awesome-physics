@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: GPL-3.0-or-later
 """Parse README.md into a structured JSON catalogue.
 
 Usage:
@@ -82,7 +82,7 @@ def parse() -> dict:
         "description": "Open, free, and freemium physics resources.",
         "license": {
             "content": "CC-BY-4.0",
-            "code": "CC0-1.0",
+            "code": "GPL-3.0-or-later",
         },
         "generated_from": "README.md",
         "count": total,

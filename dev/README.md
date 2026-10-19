@@ -19,14 +19,13 @@ dev/
 ├── templates/
 │   ├── resource.md               Template for a single list entry.
 │   ├── section.md                Template for a new section.
-│   └── pull-request.md           Pull request description template.
 ├── scripts/
 │   ├── parse_readme.py           README.md  -> resources.json
 │   ├── generate_opml.py          feeds.csv  -> feeds.opml
 │   ├── validate.py               Structural checks on README.md.
 │   └── check_links.py            HTTP link checker for README.md.
 ├── LICENSE-CC-BY-4.0.txt         Full Creative Commons Attribution 4.0 text.
-└── LICENSE-CC0-1.0.txt           Full Creative Commons CC0 1.0 text.
+└── LICENSE-GPL-3.0.txt           Full GNU General Public License v3 text.
 ```
 
 ## Requirements
@@ -100,6 +99,6 @@ The validator checks that the table of contents and the headings match.
 ## Licensing
 
 - Prose, documentation, and the list: **CC BY 4.0**.
-- Scripts, Makefile, and configuration: **CC0 1.0**.
+- Scripts, Makefiles, and configuration: **GPL-3.0-or-later**.
 
 Full texts are in this folder. See [STANDARDS.md](STANDARDS.md) for details.

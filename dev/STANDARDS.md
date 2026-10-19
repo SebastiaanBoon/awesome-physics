@@ -17,18 +17,23 @@ commercially, provided they give appropriate credit, link to the license, and
 indicate if changes were made. It is the recommended license for curated lists
 that want attribution.
 
-## Code license: Creative Commons CC0 1.0 Universal (CC0 1.0)
+## Code license: GNU General Public License v3.0 or later (GPL-3.0-or-later)
 
-Scripts, the Makefile, and CI configuration are dedicated to the public domain
-under **CC0 1.0**.
+Scripts, the Makefiles, and CI configuration are free software licensed under
+the **GNU General Public License, version 3 or later**.
 
-- Full legal text: [`LICENSE-CC0-1.0.txt`](LICENSE-CC0-1.0.txt)
-- Human-readable summary: <https://creativecommons.org/publicdomain/zero/1.0/>
-- SPDX identifier: `CC0-1.0`
+- Full legal text: [`LICENSE-GPL-3.0.txt`](LICENSE-GPL-3.0.txt)
+- License home: <https://www.gnu.org/licenses/gpl-3.0.html>
+- SPDX identifier: `GPL-3.0-or-later`
 
-CC0 removes copyright restrictions as far as the law allows, so maintainers can
-reuse the tooling anywhere without attribution overhead. Every script carries an
-`SPDX-License-Identifier: CC0-1.0` header.
+The GPL guarantees the four freedoms (run, study, share, and modify) and
+requires derivative works to stay free. Every script carries an
+`SPDX-License-Identifier: GPL-3.0-or-later` header.
+
+The current scripts depend only on the Python standard library, distributed
+under the Python Software Foundation (PSF) License, so no third-party copyleft
+obligations apply. Any library added later keeps its own license; pick
+dependencies whose licenses are compatible with the GPL and list them here.
 
 ## Open source and open access definitions
 

@@ -1,11 +1,12 @@
 Awesome Physics
 Copyright (c) 2026 Awesome Physics contributors
 
-The contents of this repository are made available under two Creative Commons
-licenses, depending on the nature of the material:
+This repository uses two licenses: one for the written content and one for the
+code.
 
-1. Documentation and content — README.md, CONTRIBUTING.md, CODE_OF_CONDUCT.md,
-   the documentation in docs/ and dev/, and the descriptions in dev/resources.json.
+1. Content and documentation — README.md, CONTRIBUTING.md, CODE_OF_CONDUCT.md,
+   the documentation in docs/ and dev/, and the descriptions in
+   dev/resources.json.
 
    Licensed under the Creative Commons Attribution 4.0 International License
    (CC BY 4.0). You are free to share and adapt the material for any purpose,
@@ -17,13 +18,23 @@ licenses, depending on the nature of the material:
 2. Code and configuration — the scripts in dev/scripts/, the Makefile, the
    GitHub Actions workflows, and other machine-readable configuration.
 
-   Dedicated to the public domain under the Creative Commons CC0 1.0 Universal
-   Public Domain Dedication (CC0 1.0). You can copy, modify, and distribute the
-   work without asking permission.
+   Free software licensed under the GNU General Public License, version 3 or
+   later (GPL-3.0-or-later). This program is distributed in the hope that it
+   will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty
+   of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You may redistribute
+   and/or modify it under the terms of the GPL as published by the Free Software
+   Foundation, either version 3 of the License, or (at your option) any later
+   version.
 
-   Full text: LICENSE-CODE and dev/LICENSE-CC0-1.0.txt
-   Human-readable summary: https://creativecommons.org/publicdomain/zero/1.0/
+   Full text: LICENSE-CODE and dev/LICENSE-GPL-3.0.txt
+   License home: https://www.gnu.org/licenses/gpl-3.0.html
+   SPDX identifier: GPL-3.0-or-later
+
+   The scripts currently depend only on the Python standard library, which is
+   distributed under the Python Software Foundation (PSF) License. Any
+   third-party dependency added later remains under its own license, and the
+   project must comply with it.
 
 This list links to third-party resources. Those resources keep their own
-licenses and terms of use; the licenses above apply only to the material in
-this repository. Trademarks and project names belong to their respective owners.
+licenses and terms of use; the licenses above apply only to the material in this
+repository. Trademarks and project names belong to their respective owners.
