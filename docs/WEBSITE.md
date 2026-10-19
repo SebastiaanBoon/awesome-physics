@@ -6,7 +6,7 @@ searchable, filterable form.
 - **Live site:** <https://dionarley.github.io/awesome-physics/>
 - **Source:** [`dev/scripts/build_site.py`](../dev/scripts/build_site.py)
 - **Input:** [`dev/resources.json`](../dev/resources.json)
-- **Output:** `_site/index.html` (not committed, built in CI)
+- **Output:** [`docs/index.html`](index.html) (committed)
 
 ## How it works
 
@@ -27,25 +27,39 @@ Features:
 make site
 ```
 
-This regenerates `dev/resources.json` and writes `_site/index.html`. Open the
-file in a browser, or serve it over HTTP:
+This regenerates `dev/resources.json`, writes `docs/index.html`, and adds
+`docs/.nojekyll`. Open the file in a browser, or serve it over HTTP:
 
 ```sh
-python3 -m http.server -d _site 8000
+python3 -m http.server -d docs 8000
 ```
 
 ## Deployment
 
-Deployment is automated by
-[`.github/workflows/pages.yml`](../.github/workflows/pages.yml) using GitHub
-Pages with a workflow build:
+The site is published with **GitHub Pages** using the classic "deploy from a
+branch" mode:
 
-1. Regenerate `dev/resources.json` from `README.md`.
-2. Build `_site/index.html` and add `.nojekyll`.
-3. Upload the artifact and deploy it to GitHub Pages.
+- **Branch:** `main`
+- **Folder:** `/docs`
 
-The workflow runs on every push to `main` and can also be triggered manually
-from the Actions tab.
+GitHub Pages rebuilds automatically on every push to `main`, so no CI runner is
+involved. The generated `docs/index.html` is committed together with the README
+change.
+
+## Keeping the site in sync
+
+Whenever `README.md` or `dev/data/feeds.csv` change, regenerate the site and
+commit the result:
+
+```sh
+make all     # resources + opml + validate
+make site    # rebuild docs/index.html
+git add docs/index.html
+```
+
+If the site is ever out of date, `make site` fixes it. The validator does not
+check the website, so a maintainer must remember this step when reviewing pull
+requests that add resources.
 
 ## Editing the design
 

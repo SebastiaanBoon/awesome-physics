@@ -24,8 +24,8 @@ opml: ## Regenerate dev/feeds.opml from dev/data/feeds.csv.
 links: ## Check every URL in README.md (network required).
 	$(PYTHON) $(SCRIPTS)/check_links.py --concurrency 16 --timeout 20
 
-site: resources ## Build the static website into _site/index.html.
-	$(PYTHON) $(SCRIPTS)/build_site.py --output $(DEVDIR)/../_site/index.html
+site: resources ## Build the static website into docs/index.html.
+	$(PYTHON) $(SCRIPTS)/build_site.py --output $(DEVDIR)/../docs/index.html
 
 all: resources opml validate ## Regenerate artifacts and validate.
 

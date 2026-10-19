@@ -19,7 +19,7 @@ import pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 DEFAULT_SOURCE = ROOT / "dev" / "resources.json"
-DEFAULT_OUTPUT = ROOT / "_site" / "index.html"
+DEFAULT_OUTPUT = ROOT / "docs" / "index.html"
 REPO_URL = "https://github.com/dionarley/awesome-physics"
 
 TAG_ORDER = ["OS", "OA", "CC", "Free", "Freemium", "Data", "RSS"]
@@ -298,7 +298,9 @@ def main() -> int:
     output = pathlib.Path(args.output)
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(build(pathlib.Path(args.source)), encoding="utf-8")
-    print(f"Wrote {output}")
+    # GitHub Pages serves the folder as-is when .nojekyll is present.
+    (output.parent / ".nojekyll").write_text("", encoding="utf-8")
+    print(f"Wrote {output} and {output.parent / '.nojekyll'}")
     return 0
 
 
