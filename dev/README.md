@@ -23,7 +23,8 @@ dev/
 │   ├── parse_readme.py           README.md  -> resources.json
 │   ├── generate_opml.py          feeds.csv  -> feeds.opml
 │   ├── validate.py               Structural checks on README.md.
-│   └── check_links.py            HTTP link checker for README.md.
+│   ├── check_links.py            HTTP link checker for README.md.
+│   └── build_site.py             resources.json -> _site/index.html
 ├── LICENSE-CC-BY-4.0.txt         Full Creative Commons Attribution 4.0 text.
 └── LICENSE-GPL-3.0.txt           Full GNU General Public License v3 text.
 ```
@@ -44,6 +45,7 @@ make validate     # check the structure and tags of README.md
 make resources    # regenerate dev/resources.json
 make opml         # regenerate dev/feeds.opml from dev/data/feeds.csv
 make links        # check every URL in README.md (network required)
+make site         # build the static website into _site/index.html
 make all          # resources + opml + validate
 ```
 
@@ -93,8 +95,9 @@ The validator checks that the table of contents and the headings match.
 
 ## Relationship to the main README
 
-`README.md` is the single source of truth for list entries. `resources.json` and
-`feeds.opml` are generated artifacts and should never be edited by hand.
+`README.md` is the single source of truth for list entries. `resources.json`,
+`feeds.opml`, and the generated website in `_site/` are derived artifacts and
+should never be edited by hand.
 
 ## Licensing
 

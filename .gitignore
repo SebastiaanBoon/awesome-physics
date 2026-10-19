@@ -19,3 +19,6 @@ Thumbs.db
 # Link checker output
 links-report.txt
 dev/links-report.txt
+
+# Generated website
+_site/

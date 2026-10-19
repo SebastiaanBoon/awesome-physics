@@ -6,7 +6,7 @@ PYTHON ?= python3
 SCRIPTS := $(DEVDIR)/scripts
 
 .DEFAULT_GOAL := help
-.PHONY: help validate resources opml links all clean
+.PHONY: help validate resources opml links site all clean
 
 help: ## Show this help.
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | \
@@ -24,7 +24,11 @@ opml: ## Regenerate dev/feeds.opml from dev/data/feeds.csv.
 links: ## Check every URL in README.md (network required).
 	$(PYTHON) $(SCRIPTS)/check_links.py --concurrency 16 --timeout 20
 
+site: resources ## Build the static website into _site/index.html.
+	$(PYTHON) $(SCRIPTS)/build_site.py --output $(DEVDIR)/../_site/index.html
+
 all: resources opml validate ## Regenerate artifacts and validate.
 
 clean: ## Remove generated artifacts.
 	rm -f $(DEVDIR)/resources.json $(DEVDIR)/feeds.opml $(DEVDIR)/links-report.txt
+	rm -rf $(DEVDIR)/../_site

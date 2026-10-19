@@ -8,6 +8,8 @@ Every entry is labelled so you can tell at a glance whether it is open source, o
 
 Contributions are welcome — please read [CONTRIBUTING.md](CONTRIBUTING.md) and the development guide in [`dev/`](dev/README.md).
 
+🌐 **Live site:** <https://dionarley.github.io/awesome-physics/>
+
 ## Contents
 
 - [Legend](#legend)
