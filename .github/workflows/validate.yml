@@ -22,7 +22,7 @@ jobs:
           python-version: "3.12"
 
       - name: Validate
-        run: python3 dev/scripts/validate.py
+        run: make validate
 
   awesome-lint:
     name: awesome-lint

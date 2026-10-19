@@ -6,8 +6,9 @@
 <title>Awesome Physics</title>
 <meta name="description" content="A curated list of 656 open, free, and freemium physics resources: learning, research, data, RSS feeds, forums, and tools.">
 <meta property="og:title" content="Awesome Physics">
-<meta property="og:description" content="A curated list of 656 open, free, and freemium physics resources.">
+<meta property="og:description" content="A curated list of 656 open, free, and freemium physics resources: learning, research, data, RSS feeds, forums, and tools.">
 <meta property="og:type" content="website">
+<link rel="alternate" hreflang="pt-BR" href="pt-BR/">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9A%9B%EF%B8%8F%3C/text%3E%3C/svg%3E">
 <style>
 :root {
@@ -59,6 +60,7 @@ h1 .emoji { -webkit-text-fill-color: initial; }
   border-radius: 999px; background: var(--panel); color: var(--text); font-size: .9rem;
 }
 .btn:hover { text-decoration: none; border-color: var(--accent); color: var(--accent); }
+.btn.lang { border-color: var(--accent); color: var(--accent); font-weight: 600; }
 .layout { max-width: 1100px; margin: 0 auto; padding: 1.5rem 1.25rem 4rem; display: grid; gap: 2rem; }
 @media (min-width: 900px) { .layout { grid-template-columns: 260px 1fr; align-items: start; } }
 aside { position: sticky; top: 1rem; max-height: calc(100vh - 2rem); overflow: auto; }
@@ -113,13 +115,13 @@ footer .inner { max-width: 1100px; margin: 0 auto; display: flex; flex-wrap: wra
 <header class="hero">
   <div class="hero-inner">
     <h1><span class="emoji">⚛️</span> Awesome Physics</h1>
-    <p class="subtitle">A curated list of <strong>656</strong> open, free, and freemium physics resources:
-    learning, research, data, RSS feeds, forums, and tools.</p>
+    <p class="subtitle">A curated list of <strong>656</strong> open, free, and freemium physics resources: learning, research, data, RSS feeds, forums, and tools.</p>
     <div class="hero-links">
       <a class="btn" href="https://github.com/dionarley/awesome-physics">GitHub repository</a>
       <a class="btn" href="https://github.com/dionarley/awesome-physics/blob/main/README.md">README</a>
       <a class="btn" href="https://github.com/dionarley/awesome-physics/blob/main/dev/feeds.opml">RSS / OPML</a>
       <a class="btn" href="https://github.com/dionarley/awesome-physics/blob/main/CONTRIBUTING.md">Contribute</a>
+      <a class="btn lang" href="pt-BR/" hreflang="pt-BR">Português (BR)</a>
     </div>
   </div>
 </header>
@@ -154,6 +156,8 @@ const sections = Array.from(document.querySelectorAll('.section'));
 const buttons = Array.from(document.querySelectorAll('.tagbtn'));
 const result = document.getElementById('result');
 const noresults = document.getElementById('noresults');
+const one = "{n} resource";
+const many = "{n} resources";
 let active = 'all';
 
 function apply() {
@@ -170,7 +174,8 @@ function apply() {
     const any = section.querySelector('.card:not([hidden])');
     section.hidden = !any;
   }
-  result.textContent = shown + (shown === 1 ? ' resource' : ' resources');
+  const template = shown === 1 ? one : many;
+  result.textContent = template.replace('{n}', shown);
   noresults.classList.toggle('visible', shown === 0);
   document.body.classList.toggle('filtered', true);
 }

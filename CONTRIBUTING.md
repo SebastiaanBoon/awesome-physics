@@ -36,17 +36,20 @@ Please read the [Code of Conduct](CODE_OF_CONDUCT.md) and the
 
 1. Fork the repository and create a branch: `git checkout -b add-my-resource`.
 2. Edit `README.md` and place the entry in the most relevant section.
-3. If the resource provides an RSS or Atom feed, add it to
+3. Add the same entry to `README.pt-BR.md`, in the same section and position,
+   with a Portuguese description. Keep the URL, the name, and the labels
+   identical so both lists stay in sync.
+4. If the resource provides an RSS or Atom feed, add it to
    `dev/data/feeds.csv` as well.
-4. Run the local checks (see the [development guide](dev/README.md)):
+5. Run the local checks (see the [development guide](dev/README.md)):
 
    ```sh
    make validate
    make links
    ```
 
-5. Commit with a clear message, for example `Add QuTiP to quantum section`.
-6. Open a pull request and fill in the template.
+6. Commit with a clear message, for example `Add QuTiP to quantum section`.
+7. Open a pull request and fill in the template.
 
 ## One entry per pull request
 
@@ -57,6 +60,21 @@ open several pull requests or an issue first.
 
 Open an issue with the [broken link template](.github/ISSUE_TEMPLATE/broken-link.md)
 and include the section and the URL. Automated link checking also runs in CI.
+
+## Translations
+
+The list is bilingual and both files are first-class:
+
+- [`README.md`](README.md) — English.
+- [`README.pt-BR.md`](README.pt-BR.md) — Português (Brasil).
+
+When you add, change, or remove an entry, do the same in every translation, in
+the same section and order. Project names, URLs, and labels stay identical; only
+section titles and descriptions are translated. Run `make validate` to check all
+translations at once.
+
+To start a new translation, copy `README.md`, translate the section titles, the
+introduction, and the descriptions, then run `make validate` and `make resources`.
 
 ## Licensing of contributions
 
@@ -71,7 +89,7 @@ Do not paste content you do not have the right to license this way.
 
 ## Style notes
 
-- Use English (American or British spelling, but be consistent within an entry).
+- In `README.md`, write in English (American or British spelling, but be consistent within an entry). In `README.pt-BR.md`, write in Brazilian Portuguese.
 - Keep descriptions to one sentence, ideally under 120 characters.
 - Do not use marketing language; describe what the resource is.
 - Prefer `https://` links.

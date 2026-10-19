@@ -18,10 +18,13 @@ Routine tasks for maintainers.
 ## When merging a pull request
 
 1. Confirm the entry format and labels.
-2. Confirm `make validate` passes on the branch.
-3. Confirm generated artifacts are committed.
-4. Squash-merge with a clear message in the imperative mood.
-5. Optionally regenerate `resources.json` if the contributor forgot.
+2. Confirm the entry exists in every translation (`README.md` and
+   `README.pt-BR.md`) in the same section and order.
+3. Confirm `make validate` passes on the branch.
+4. Confirm generated artifacts are committed (`dev/resources.json`,
+   `dev/resources.pt-BR.json`, and `docs/`).
+5. Squash-merge with a clear message in the imperative mood.
+6. Optionally run `make all && make site` if the contributor forgot.
 
 ## When a link breaks
 

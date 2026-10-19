@@ -1,27 +1,28 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: GPL-3.0-or-later
-"""Validate the structure of README.md.
+"""Validate the structure of a README.
 
 Checks performed:
   * exactly one level-1 heading;
-  * a "## Contents" section exists;
+  * a table-of-contents section exists;
   * every table-of-contents anchor matches a real heading;
   * every resource entry has at least one known label;
   * descriptions start with a capital letter and end with a period;
   * no duplicate URLs.
 
 Usage:
-    python3 dev/scripts/validate.py
+    python3 dev/scripts/validate.py [--readme README.pt-BR.md]
 """
 
 from __future__ import annotations
 
+import argparse
 import pathlib
 import re
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
-README = ROOT / "README.md"
+DEFAULT_README = ROOT / "README.md"
 
 HEADINGS = re.compile(r"^(?P<level>#+)\s+(?P<title>.+?)\s*$")
 TOC_LINK = re.compile(r"^\s*-\s+\[(?P<text>[^\]]+)\]\(#(?P<anchor>[^)]+)\)\s*$")
@@ -33,13 +34,23 @@ TAG = re.compile(r"`\[(?P<tag>[A-Za-z]+)\]`")
 
 KNOWN_TAGS = {"OS", "OA", "CC", "Free", "Freemium", "Data", "RSS"}
 
+# Sections that wrap the list rather than contain resources; both the English
+# and the Portuguese titles are recognised so the validator is language-neutral.
 NON_RESOURCE_SECTIONS = {
     "Contents",
     "Legend",
     "Related Awesome Lists",
     "Contributing",
     "License",
+    "Conteúdo",
+    "Legenda",
+    "Listas Awesome Relacionadas",
+    "Contribuindo",
+    "Licença",
 }
+
+# Titles of the table-of-contents section.
+TOC_SECTIONS = {"Contents", "Conteúdo"}
 
 
 def slugify(title: str) -> str:
@@ -50,10 +61,19 @@ def slugify(title: str) -> str:
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--readme",
+        default=str(DEFAULT_README),
+        help="README file to validate.",
+    )
+    args = parser.parse_args()
+
+    readme = pathlib.Path(args.readme)
     errors: list[str] = []
     warnings: list[str] = []
 
-    text = README.read_text(encoding="utf-8")
+    text = readme.read_text(encoding="utf-8")
     lines = text.splitlines()
 
     h1 = [ln for ln in lines if re.match(r"^#\s+\S", ln)]
@@ -75,7 +95,7 @@ def main() -> int:
             if level == 2:
                 headings.append(title)
                 current_section = None if title in NON_RESOURCE_SECTIONS else title
-                in_toc = title == "Contents"
+                in_toc = title in TOC_SECTIONS
             continue
 
         if in_toc:
@@ -124,7 +144,7 @@ def main() -> int:
         if not url.startswith("https://"):
             warnings.append(f"Line {number}: '{name}' does not use https: {url}")
 
-    expected = [slugify(title) for title in headings if title != "Contents"]
+    expected = [slugify(title) for title in headings if title not in TOC_SECTIONS]
     missing = [anchor for anchor in expected if anchor not in toc_anchors]
     extra = [anchor for anchor in toc_anchors if anchor not in expected]
     for anchor in missing:

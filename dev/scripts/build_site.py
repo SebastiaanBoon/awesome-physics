@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: GPL-3.0-or-later
-"""Build a static, self-contained website from dev/resources.json.
+"""Build a static, self-contained website from a resource catalogue.
 
 Usage:
-    python3 dev/scripts/build_site.py --output _site/index.html
+    python3 dev/scripts/build_site.py --lang en    --source dev/resources.json       --output docs/index.html
+    python3 dev/scripts/build_site.py --lang pt-BR --source dev/resources.pt-BR.json --output docs/pt-BR/index.html
 
 The generated page has no external dependencies: it works offline from any
 static host, including GitHub Pages.
@@ -23,14 +24,95 @@ DEFAULT_OUTPUT = ROOT / "docs" / "index.html"
 REPO_URL = "https://github.com/dionarley/awesome-physics"
 
 TAG_ORDER = ["OS", "OA", "CC", "Free", "Freemium", "Data", "RSS"]
-TAG_LABELS = {
-    "OS": "Open source",
-    "OA": "Open access",
-    "CC": "Creative Commons",
-    "Free": "Free",
-    "Freemium": "Freemium",
-    "Data": "Data / API",
-    "RSS": "RSS feed",
+
+# Per-language metadata and user-interface strings.
+LANGS = {
+    "en": {
+        "html_lang": "en",
+        "title": "Awesome Physics",
+        "meta_description": (
+            "A curated list of {total} open, free, and freemium physics resources: "
+            "learning, research, data, RSS feeds, forums, and tools."
+        ),
+        "hero_subtitle": (
+            "A curated list of <strong>{total}</strong> open, free, and freemium "
+            "physics resources: learning, research, data, RSS feeds, forums, and tools."
+        ),
+        "badges": {
+            "repo": "GitHub repository",
+            "readme": "README",
+            "opml": "RSS / OPML",
+            "contribute": "Contribute",
+        },
+        "readme_path": "README.md",
+        "switch_label": "Português (BR)",
+        "switch_href": "pt-BR/",
+        "switch_hreflang": "pt-BR",
+        "sections": "Sections",
+        "search": "Search {total} resources…",
+        "search_aria": "Search resources",
+        "all": "All",
+        "no_results": "No resources match your search.",
+        "result": "{n} resource",
+        "results": "{n} resources",
+        "tag_labels": {
+            "OS": "Open source",
+            "OA": "Open access",
+            "CC": "Creative Commons",
+            "Free": "Free",
+            "Freemium": "Freemium",
+            "Data": "Data / API",
+            "RSS": "RSS feed",
+        },
+        "footer_content": "Content",
+        "footer_code": "Code",
+        "footer_generated": "Generated from",
+        "footer_on": "on",
+        "footer_source": "source",
+    },
+    "pt-BR": {
+        "html_lang": "pt-BR",
+        "title": "Awesome Physics",
+        "meta_description": (
+            "Uma lista curada de {total} recursos abertos, gratuitos e freemium de "
+            "física: aprendizagem, pesquisa, dados, feeds RSS, fóruns e ferramentas."
+        ),
+        "hero_subtitle": (
+            "Uma lista curada de <strong>{total}</strong> recursos abertos, gratuitos "
+            "e freemium de física: aprendizagem, pesquisa, dados, feeds RSS, fóruns e ferramentas."
+        ),
+        "badges": {
+            "repo": "Repositório no GitHub",
+            "readme": "README",
+            "opml": "RSS / OPML",
+            "contribute": "Contribuir",
+        },
+        "readme_path": "README.pt-BR.md",
+        "switch_label": "English",
+        "switch_href": "../",
+        "switch_hreflang": "en",
+        "sections": "Seções",
+        "search": "Buscar {total} recursos…",
+        "search_aria": "Buscar recursos",
+        "all": "Todos",
+        "no_results": "Nenhum recurso corresponde à sua busca.",
+        "result": "{n} recurso",
+        "results": "{n} recursos",
+        "tag_labels": {
+            "OS": "Código aberto",
+            "OA": "Acesso aberto",
+            "CC": "Creative Commons",
+            "Free": "Gratuito",
+            "Freemium": "Freemium",
+            "Data": "Dados / API",
+            "RSS": "Feed RSS",
+        },
+        "footer_content": "Conteúdo",
+        "footer_code": "Código",
+        "footer_generated": "Gerado a partir de",
+        "footer_on": "em",
+        "footer_source": "fonte",
+    },
 }
 
 FAVICON = (
@@ -44,10 +126,10 @@ def esc(value: str) -> str:
     return html.escape(value, quote=True)
 
 
-def render_card(resource: dict) -> str:
-    tags = [tag for tag in resource.get("tags", []) if tag in TAG_LABELS]
+def render_card(resource: dict, tag_labels: dict[str, str]) -> str:
+    tags = [tag for tag in resource.get("tags", []) if tag in tag_labels]
     tags_html = "".join(
-        f'<span class="tag tag-{esc(tag.lower())}" title="{esc(TAG_LABELS[tag])}">{esc(tag)}</span>'
+        f'<span class="tag tag-{esc(tag.lower())}" title="{esc(tag_labels[tag])}">{esc(tag)}</span>'
         for tag in tags
     )
     search_blob = f"{resource['name']} {resource.get('description', '')} {' '.join(tags)}".lower()
@@ -62,7 +144,9 @@ def render_card(resource: dict) -> str:
     )
 
 
-def build(source: pathlib.Path) -> str:
+def build(source: pathlib.Path, lang: str) -> str:
+    strings = LANGS[lang]
+    tag_labels = strings["tag_labels"]
     data = json.loads(source.read_text(encoding="utf-8"))
     sections = data["sections"]
     total = data["count"]
@@ -80,14 +164,14 @@ def build(source: pathlib.Path) -> str:
     )
 
     filter_html = "".join(
-        f'<button class="tagbtn" data-tag="{esc(tag)}">{esc(TAG_LABELS[tag])}'
+        f'<button class="tagbtn" data-tag="{esc(tag)}">{esc(tag_labels[tag])}'
         f'<span class="count">{tag_counts[tag]}</span></button>'
         for tag in TAG_ORDER
     )
 
     sections_html = []
     for section in sections:
-        cards = "".join(render_card(resource) for resource in section["resources"])
+        cards = "".join(render_card(resource, tag_labels) for resource in section["resources"])
         sections_html.append(
             f'<section class="section" id="{esc(section["slug"])}">'
             f'<h2>{esc(section["title"])}<span class="count">{len(section["resources"])}</span></h2>'
@@ -97,17 +181,19 @@ def build(source: pathlib.Path) -> str:
 
     generated = dt.date.today().isoformat()
     licenses = data.get("license", {})
+    readme_url = f"{REPO_URL}/blob/main/{strings['readme_path']}"
 
     return f"""<!DOCTYPE html>
-<html lang="en">
+<html lang="{esc(strings['html_lang'])}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Awesome Physics</title>
-<meta name="description" content="A curated list of {total} open, free, and freemium physics resources: learning, research, data, RSS feeds, forums, and tools.">
-<meta property="og:title" content="Awesome Physics">
-<meta property="og:description" content="A curated list of {total} open, free, and freemium physics resources.">
+<title>{esc(strings['title'])}</title>
+<meta name="description" content="{esc(strings['meta_description'].format(total=total))}">
+<meta property="og:title" content="{esc(strings['title'])}">
+<meta property="og:description" content="{esc(strings['meta_description'].format(total=total))}">
 <meta property="og:type" content="website">
+<link rel="alternate" hreflang="{esc(strings['switch_hreflang'])}" href="{esc(strings['switch_href'])}">
 <link rel="icon" href="{FAVICON}">
 <style>
 :root {{
@@ -159,6 +245,7 @@ h1 .emoji {{ -webkit-text-fill-color: initial; }}
   border-radius: 999px; background: var(--panel); color: var(--text); font-size: .9rem;
 }}
 .btn:hover {{ text-decoration: none; border-color: var(--accent); color: var(--accent); }}
+.btn.lang {{ border-color: var(--accent); color: var(--accent); font-weight: 600; }}
 .layout {{ max-width: 1100px; margin: 0 auto; padding: 1.5rem 1.25rem 4rem; display: grid; gap: 2rem; }}
 @media (min-width: 900px) {{ .layout {{ grid-template-columns: 260px 1fr; align-items: start; }} }}
 aside {{ position: sticky; top: 1rem; max-height: calc(100vh - 2rem); overflow: auto; }}
@@ -212,39 +299,39 @@ footer .inner {{ max-width: 1100px; margin: 0 auto; display: flex; flex-wrap: wr
 <body>
 <header class="hero">
   <div class="hero-inner">
-    <h1><span class="emoji">⚛️</span> Awesome Physics</h1>
-    <p class="subtitle">A curated list of <strong>{total}</strong> open, free, and freemium physics resources:
-    learning, research, data, RSS feeds, forums, and tools.</p>
+    <h1><span class="emoji">⚛️</span> {esc(strings['title'])}</h1>
+    <p class="subtitle">{strings['hero_subtitle'].format(total=total)}</p>
     <div class="hero-links">
-      <a class="btn" href="{REPO_URL}">GitHub repository</a>
-      <a class="btn" href="{REPO_URL}/blob/main/README.md">README</a>
-      <a class="btn" href="{REPO_URL}/blob/main/dev/feeds.opml">RSS / OPML</a>
-      <a class="btn" href="{REPO_URL}/blob/main/CONTRIBUTING.md">Contribute</a>
+      <a class="btn" href="{REPO_URL}">{esc(strings['badges']['repo'])}</a>
+      <a class="btn" href="{readme_url}">{esc(strings['badges']['readme'])}</a>
+      <a class="btn" href="{REPO_URL}/blob/main/dev/feeds.opml">{esc(strings['badges']['opml'])}</a>
+      <a class="btn" href="{REPO_URL}/blob/main/CONTRIBUTING.md">{esc(strings['badges']['contribute'])}</a>
+      <a class="btn lang" href="{esc(strings['switch_href'])}" hreflang="{esc(strings['switch_hreflang'])}">{esc(strings['switch_label'])}</a>
     </div>
   </div>
 </header>
 <div class="layout">
   <aside>
-    <h2>Sections</h2>
+    <h2>{esc(strings['sections'])}</h2>
     <nav><ul>{nav_html}</ul></nav>
   </aside>
   <main>
     <div class="controls">
-      <input id="q" type="search" placeholder="Search {total} resources…" autocomplete="off" aria-label="Search resources">
+      <input id="q" type="search" placeholder="{esc(strings['search'].format(total=total))}" autocomplete="off" aria-label="{esc(strings['search_aria'])}">
       <div class="tagbtns">
-        <button class="tagbtn active" data-tag="all">All<span class="count">{total}</span></button>
+        <button class="tagbtn active" data-tag="all">{esc(strings['all'])}<span class="count">{total}</span></button>
         {filter_html}
       </div>
-      <p class="result" id="result">{total} resources</p>
+      <p class="result" id="result">{esc(strings['results'].format(n=total))}</p>
     </div>
-    <p class="no-results" id="noresults">No resources match your search.</p>
+    <p class="no-results" id="noresults">{esc(strings['no_results'])}</p>
     {"".join(sections_html)}
   </main>
 </div>
 <footer>
   <div class="inner">
-    <span>Content: <a href="{REPO_URL}/blob/main/LICENSE">CC BY 4.0</a> · Code: <a href="{REPO_URL}/blob/main/LICENSE-CODE">GPL-3.0-or-later</a></span>
-    <span>Generated from <a href="{REPO_URL}/blob/main/README.md">README.md</a> on {generated} · source: {esc(licenses.get("content", "CC-BY-4.0"))} / {esc(licenses.get("code", "GPL-3.0-or-later"))}</span>
+    <span>{esc(strings['footer_content'])}: <a href="{REPO_URL}/blob/main/LICENSE">CC BY 4.0</a> · {esc(strings['footer_code'])}: <a href="{REPO_URL}/blob/main/LICENSE-CODE">GPL-3.0-or-later</a></span>
+    <span>{esc(strings['footer_generated'])} <a href="{readme_url}">{esc(strings['readme_path'])}</a> {esc(strings['footer_on'])} {generated} · {esc(strings['footer_source'])}: {esc(licenses.get("content", "CC-BY-4.0"))} / {esc(licenses.get("code", "GPL-3.0-or-later"))}</span>
   </div>
 </footer>
 <script>
@@ -254,6 +341,8 @@ const sections = Array.from(document.querySelectorAll('.section'));
 const buttons = Array.from(document.querySelectorAll('.tagbtn'));
 const result = document.getElementById('result');
 const noresults = document.getElementById('noresults');
+const one = {json.dumps(strings['result'])};
+const many = {json.dumps(strings['results'])};
 let active = 'all';
 
 function apply() {{
@@ -270,7 +359,8 @@ function apply() {{
     const any = section.querySelector('.card:not([hidden])');
     section.hidden = !any;
   }}
-  result.textContent = shown + (shown === 1 ? ' resource' : ' resources');
+  const template = shown === 1 ? one : many;
+  result.textContent = template.replace('{{n}}', shown);
   noresults.classList.toggle('visible', shown === 0);
   document.body.classList.toggle('filtered', true);
 }}
@@ -293,14 +383,15 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--source", default=str(DEFAULT_SOURCE))
     parser.add_argument("--output", default=str(DEFAULT_OUTPUT))
+    parser.add_argument("--lang", default="en", choices=sorted(LANGS))
     args = parser.parse_args()
 
     output = pathlib.Path(args.output)
     output.parent.mkdir(parents=True, exist_ok=True)
-    output.write_text(build(pathlib.Path(args.source)), encoding="utf-8")
+    output.write_text(build(pathlib.Path(args.source), args.lang), encoding="utf-8")
     # GitHub Pages serves the folder as-is when .nojekyll is present.
     (output.parent / ".nojekyll").write_text("", encoding="utf-8")
-    print(f"Wrote {output} and {output.parent / '.nojekyll'}")
+    print(f"Wrote {output} and {output.parent / '.nojekyll'} ({args.lang})")
     return 0
 
 

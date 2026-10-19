@@ -1,0 +1,6001 @@
+{
+  "name": "awesome-physics",
+  "language": "pt-BR",
+  "description": "Recursos abertos, gratuitos e freemium de física.",
+  "license": {
+    "content": "CC-BY-4.0",
+    "code": "GPL-3.0-or-later"
+  },
+  "generated_from": "README.pt-BR.md",
+  "count": 656,
+  "sections": [
+    {
+      "title": "Plataformas de Aprendizagem e Cursos",
+      "slug": "plataformas-de-aprendizagem-e-cursos",
+      "resources": [
+        {
+          "name": "MIT OpenCourseWare — Physics",
+          "url": "https://ocw.mit.edu/search/?d=Physics",
+          "description": "Cursos completos de física do MIT com notas de aula, listas de exercícios e provas.",
+          "tags": [
+            "OA",
+            "CC",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "The Feynman Lectures on Physics",
+          "url": "https://www.feynmanlectures.caltech.edu/",
+          "description": "O texto completo das lendárias aulas de Caltech, disponível gratuitamente online.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "The Theoretical Minimum",
+          "url": "https://theoreticalminimum.com/",
+          "description": "Cursos de Leonard Susskind sobre mecânica clássica, mecânica quântica, relatividade e mais.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Khan Academy — Physics",
+          "url": "https://www.khanacademy.org/science/physics",
+          "description": "Lições curtas e exercícios para física de nível médio e universitário introdutório.",
+          "tags": [
+            "OA",
+            "CC",
+            "Free"
+          ]
+        },
+        {
+          "name": "OpenStax",
+          "url": "https://openstax.org/subjects/science",
+          "description": "Livros universitários revisados por pares e de licença aberta, incluindo física e astronomia.",
+          "tags": [
+            "OA",
+            "CC",
+            "Free"
+          ]
+        },
+        {
+          "name": "edX — Physics",
+          "url": "https://www.edx.org/learn/physics",
+          "description": "Cursos de física em nível universitário, a maioria gratuita no modo ouvinte.",
+          "tags": [
+            "Freemium",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Coursera — Physics and Astronomy",
+          "url": "https://www.coursera.org/browse/physical-science-and-engineering/physics-and-astronomy",
+          "description": "Cursos de universidades de destaque, gratuitos no modo ouvinte.",
+          "tags": [
+            "Freemium",
+            "RSS"
+          ]
+        },
+        {
+          "name": "FutureLearn — Physics",
+          "url": "https://www.futurelearn.com/subjects/science-engineering-and-maths-courses/physics",
+          "description": "Cursos curtos de universidades do Reino Unido e internacionais.",
+          "tags": [
+            "Freemium",
+            "RSS"
+          ]
+        },
+        {
+          "name": "NPTEL — Physics",
+          "url": "https://nptel.ac.in/courses",
+          "description": "Cursos gratuitos de engenharia e ciências de institutos indianos.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "SWAYAM",
+          "url": "https://swayam.gov.in/",
+          "description": "Plataforma nacional de MOOCs da Índia, com um amplo catálogo de física.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Saylor Academy — Physics",
+          "url": "https://learn.saylor.org/course/index.php?categoryid=10",
+          "description": "Cursos no seu ritmo e sem mensalidade, com materiais abertos.",
+          "tags": [
+            "OA",
+            "CC",
+            "Free"
+          ]
+        },
+        {
+          "name": "The Open University — Physics",
+          "url": "https://www.open.ac.uk/courses/physics",
+          "description": "Aprendizagem aberta e trechos de cursos gratuitos.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "Physics Classroom",
+          "url": "https://www.physicsclassroom.com/",
+          "description": "Tutoriais, recursos interativos e exercícios de física introdutória.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "HyperPhysics",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/hframe.html",
+          "description": "Referência em mapas conceituais que cobre a maior parte da graduação em física.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Brilliant",
+          "url": "https://brilliant.org/",
+          "description": "Cursos interativos baseados em problemas de física, matemática e ciência da computação.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "Class Central",
+          "url": "https://www.classcentral.com/subject/physics",
+          "description": "Agregador que indexa milhares de cursos de física gratuitos online.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Open Yale Courses — Physics",
+          "url": "https://oyc.yale.edu/physics",
+          "description": "Cursos completos em vídeo de Yale, incluindo Fundamentals of Physics.",
+          "tags": [
+            "OA",
+            "CC",
+            "Free"
+          ]
+        },
+        {
+          "name": "Stanford Online — Physics",
+          "url": "https://online.stanford.edu/courses?keywords=physics",
+          "description": "Cursos de física de Stanford, gratuitos e pagos.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "Perimeter Institute — Public Lectures and Courses",
+          "url": "https://perimeterinstitute.ca/outreach",
+          "description": "Divulgação em física teórica e palestras gravadas.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "ICTP Diploma Programme",
+          "url": "https://www.ictp.it/opportunity/ictp-postgraduate-diploma-programme",
+          "description": "Notas de aula e materiais do Abdus Salam ICTP.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Coursera Audit Access",
+          "url": "https://www.coursera.org/",
+          "description": "A maioria dos cursos de física pode ser acompanhada gratuitamente no modo ouvinte.",
+          "tags": [
+            "Freemium"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Livros Abertos e Notas de Aula",
+      "slug": "livros-abertos-e-notas-de-aula",
+      "resources": [
+        {
+          "name": "OpenStax College Physics 2e",
+          "url": "https://openstax.org/details/books/college-physics-2e",
+          "description": "Livro introdutório de física baseado em álgebra.",
+          "tags": [
+            "OA",
+            "CC",
+            "Free"
+          ]
+        },
+        {
+          "name": "OpenStax University Physics Volumes 1–3",
+          "url": "https://openstax.org/details/books/university-physics-volume-1",
+          "description": "Sequência universitária de física baseada em cálculo.",
+          "tags": [
+            "OA",
+            "CC",
+            "Free"
+          ]
+        },
+        {
+          "name": "OpenStax Astronomy 2e",
+          "url": "https://openstax.org/details/books/astronomy-2e",
+          "description": "Livro introdutório de astronomia.",
+          "tags": [
+            "OA",
+            "CC",
+            "Free"
+          ]
+        },
+        {
+          "name": "Physics LibreTexts",
+          "url": "https://phys.libretexts.org/",
+          "description": "Uma vasta biblioteca colaborativa de livros-texto e notas de física.",
+          "tags": [
+            "OA",
+            "CC",
+            "Free"
+          ]
+        },
+        {
+          "name": "Motion Mountain",
+          "url": "https://www.motionmountain.net/",
+          "description": "Um curso gratuito em vários volumes sobre física moderna.",
+          "tags": [
+            "OA",
+            "CC",
+            "Free"
+          ]
+        },
+        {
+          "name": "Light and Matter",
+          "url": "https://www.lightandmatter.com/",
+          "description": "Livros-texto abertos de física e roteiros de laboratório de Benjamin Crowell.",
+          "tags": [
+            "OA",
+            "CC",
+            "Free"
+          ]
+        },
+        {
+          "name": "Essential Graduate Physics — Konstantin Likharev",
+          "url": "https://sites.google.com/site/likharevegp/",
+          "description": "Seis volumes de notas de aula de física em nível de pós-graduação.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "David Tong's Lecture Notes",
+          "url": "https://www.damtp.cam.ac.uk/user/tong/teaching.html",
+          "description": "Notas de Cambridge amplamente usadas sobre teoria quântica de campos, relatividade geral, cosmologia, física estatística e mais.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Gerard 't Hooft — How to Become a Good Theoretical Physicist",
+          "url": "https://webspace.science.uu.nl/~hooft101/theorist.html",
+          "description": "Um currículo curado de recursos gratuitos de física teórica.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Structure and Interpretation of Classical Mechanics",
+          "url": "https://tgvaughan.github.io/sicm/",
+          "description": "Livro de mecânica clássica computacional de Susskind e Wisdom.",
+          "tags": [
+            "OA",
+            "CC",
+            "Free"
+          ]
+        },
+        {
+          "name": "Computational Physics — Mark Newman",
+          "url": "http://www-personal.umich.edu/~mejn/cp/",
+          "description": "Livro-texto aberto com exemplos em Python e C++.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Quantum Mechanics for Engineers — Leon van Dommelen",
+          "url": "https://www.eng.famu.fsu.edu/~dommelen/quantum/",
+          "description": "Livro-texto gratuito e completo de mecânica quântica.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Electromagnetic Fields and Energy — Haus and Melcher",
+          "url": "https://web.mit.edu/6.013_book/www/",
+          "description": "Clássico livro-texto do MIT sobre eletromagnetismo, disponível gratuitamente.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Continuum Mechanics — Bob McGinty",
+          "url": "https://www.continuummechanics.org/",
+          "description": "Notas abertas sobre tensão, deformação e equações de campo.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Basics of Fluid Mechanics — Genick Bar-Meir",
+          "url": "https://www.potto.org/FM/fluidMechanics.php",
+          "description": "Livro-texto gratuito de mecânica dos fluidos para engenharia.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Lecture Notes in Physics (arXiv)",
+          "url": "https://arxiv.org/list/physics.ed-ph/recent",
+          "description": "Notas de aula abertas e artigos de ensino.",
+          "tags": [
+            "OA",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Scholarpedia",
+          "url": "http://www.scholarpedia.org/",
+          "description": "Artigos enciclopédicos revisados por pares e escritos por especialistas.",
+          "tags": [
+            "OA",
+            "CC",
+            "Free"
+          ]
+        },
+        {
+          "name": "nLab",
+          "url": "https://ncatlab.org/nlab/show/HomePage",
+          "description": "Wiki sobre matemática e física matemática.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Encyclopedia of Mathematics",
+          "url": "https://encyclopediaofmath.org/",
+          "description": "Referência abrangente e aberta de matemática.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "The Stanford Encyclopedia of Philosophy — Physics",
+          "url": "https://plato.stanford.edu/",
+          "description": "Artigos acadêmicos sobre os fundamentos da física.",
+          "tags": [
+            "OA",
+            "CC",
+            "Free"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Simulações, Laboratórios Virtuais e Recursos Interativos",
+      "slug": "simulações-laboratórios-virtuais-e-recursos-interativos",
+      "resources": [
+        {
+          "name": "PhET Interactive Simulations",
+          "url": "https://phet.colorado.edu/",
+          "description": "Simulações de física, química e matemática baseadas em pesquisa, da Universidade do Colorado.",
+          "tags": [
+            "OS",
+            "CC",
+            "Free"
+          ]
+        },
+        {
+          "name": "oPhysics",
+          "url": "https://ophysics.com/",
+          "description": "Simulações de física em HTML5 para mecânica, ondas e eletricidade.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Falstad Circuit and Math Simulations",
+          "url": "https://www.falstad.com/mathphysics.html",
+          "description": "Simuladores de circuitos e applets de ondas e campos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "MyPhysicsLab",
+          "url": "https://www.myphysicslab.com/",
+          "description": "Simulações interativas de física com JavaScript de código aberto.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Open Source Physics / ComPADRE",
+          "url": "https://www.compadre.org/osp/",
+          "description": "Comunidade de simulações, modelos e currículos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "The Physics Aviary",
+          "url": "https://www.thephysicsaviary.com/",
+          "description": "Laboratórios no navegador e problemas baseados em simulação.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Tracker Video Analysis",
+          "url": "https://physlets.org/tracker/",
+          "description": "Ferramenta de código aberto para análise de vídeo e modelagem.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Algodoo",
+          "url": "https://www.algodoo.com/",
+          "description": "Caixa de areia de física 2D com ferramentas interativas de construção.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "Physion",
+          "url": "https://physion.net/",
+          "description": "Kit de simulação e construção de física 2D.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "Phyphox",
+          "url": "https://phyphox.org/",
+          "description": "Transforma seu smartphone em um laboratório de física.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Phet Teacher Tips",
+          "url": "https://phet.colorado.edu/en/teaching-resources",
+          "description": "Guias e atividades para usar simulações em sala de aula.",
+          "tags": [
+            "OA",
+            "CC",
+            "Free"
+          ]
+        },
+        {
+          "name": "SimuLAB",
+          "url": "https://www.simulab.it/",
+          "description": "Simulações de laboratório virtual para escolas.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "Pivot Interactives",
+          "url": "https://www.pivotinteractives.com/",
+          "description": "Laboratórios interativos de física baseados em vídeo.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "Labster",
+          "url": "https://www.labster.com/",
+          "description": "Simulações de laboratório virtual para universidades.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "Wolfram Demonstrations Project",
+          "url": "https://demonstrations.wolfram.com/topics/Physics/",
+          "description": "Milhares de demonstrações interativas de física.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "Open Source Physics Tracker and EJS",
+          "url": "https://www.compadre.org/osp/items/detail.cfm?ID=13426",
+          "description": "Ferramentas de autoria Easy Java/JavaScript Simulations.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Física Computacional e Software de Simulação",
+      "slug": "física-computacional-e-software-de-simulação",
+      "resources": [
+        {
+          "name": "Python",
+          "url": "https://www.python.org/",
+          "description": "Linguagem de propósito geral que domina a computação científica.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "NumPy",
+          "url": "https://numpy.org/",
+          "description": "Biblioteca fundamental de arrays e álgebra linear para Python.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "SciPy",
+          "url": "https://scipy.org/",
+          "description": "Algoritmos científicos para otimização, integração, interpolação e mais.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "SymPy",
+          "url": "https://www.sympy.org/",
+          "description": "Matemática simbólica em Python puro.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Matplotlib",
+          "url": "https://matplotlib.org/",
+          "description": "Gráficos com qualidade de publicação para Python.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Jupyter",
+          "url": "https://jupyter.org/",
+          "description": "Notebooks interativos para computação e pesquisa reproduzível.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "SciPy Lecture Notes",
+          "url": "https://scipy-lectures.org/",
+          "description": "Curso gratuito sobre o ecossistema científico do Python.",
+          "tags": [
+            "OA",
+            "CC",
+            "Free"
+          ]
+        },
+        {
+          "name": "Julia",
+          "url": "https://julialang.org/",
+          "description": "Linguagem de alto desempenho projetada para computação numérica e científica.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "SciML",
+          "url": "https://sciml.ai/",
+          "description": "Ecossistema Julia para equações diferenciais e aprendizado de máquina científico.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "DifferentialEquations.jl",
+          "url": "https://docs.sciml.ai/DiffEqDocs/stable/",
+          "description": "Solucionadores de última geração para equações diferenciais.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "ModelingToolkit.jl",
+          "url": "https://docs.sciml.ai/ModelingToolkit/",
+          "description": "Modelagem e simulação simbólico-numérica para Julia.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "GNU Octave",
+          "url": "https://octave.org/",
+          "description": "Ambiente gratuito de computação numérica compatível com MATLAB.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "R Project",
+          "url": "https://www.r-project.org/",
+          "description": "Ambiente de computação estatística e gráficos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "SageMath",
+          "url": "https://www.sagemath.org/",
+          "description": "Sistema de software matemático de código aberto construído sobre Python.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Maxima",
+          "url": "https://maxima.sourceforge.io/",
+          "description": "Sistema de álgebra computacional de código aberto.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "GNU Scientific Library (GSL)",
+          "url": "https://www.gnu.org/software/gsl/",
+          "description": "Biblioteca numérica para C e C++.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Eigen",
+          "url": "https://eigen.tuxfamily.org/",
+          "description": "Biblioteca de templates C++ somente cabeçalho para álgebra linear.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Armadillo",
+          "url": "https://arma.sourceforge.net/",
+          "description": "Biblioteca C++ de álgebra linear e computação científica.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "LAPACK",
+          "url": "https://www.netlib.org/lapack/",
+          "description": "Rotinas de álgebra linear densa usadas em toda a ciência.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "FFTW",
+          "url": "https://www.fftw.org/",
+          "description": "Biblioteca de transformada rápida de Fourier.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "SUNDIALS",
+          "url": "https://sundials.readthedocs.io/",
+          "description": "Conjunto de solucionadores de equações não lineares e diferenciais/algébricas.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "PETSc",
+          "url": "https://petsc.org/",
+          "description": "Kit escalável para computação científica em máquinas paralelas.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Trilinos",
+          "url": "https://trilinos.github.io/",
+          "description": "Estrutura de solucionadores científicos e de engenharia em larga escala.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "hypre",
+          "url": "https://computing.llnl.gov/projects/hypre-scalable-linear-solvers-multigrid-methods",
+          "description": "Solucionadores lineares escaláveis e métodos multigrid.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "AMReX",
+          "url": "https://amrex-codes.github.io/amrex/",
+          "description": "Estrutura de refinamento de malha adaptativa em blocos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "FEniCS",
+          "url": "https://fenicsproject.org/",
+          "description": "Solução automatizada de EDPs por elementos finitos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Firedrake",
+          "url": "https://www.firedrakeproject.org/",
+          "description": "Estrutura de elementos finitos com geração automática de código.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "deal.II",
+          "url": "https://www.dealii.org/",
+          "description": "Biblioteca de elementos finitos para malhas adaptativas e alto desempenho.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "MFEM",
+          "url": "https://mfem.org/",
+          "description": "Biblioteca modular de métodos de elementos finitos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "FreeFEM",
+          "url": "https://freefem.org/",
+          "description": "Linguagem de alto nível para resolver EDPs com elementos finitos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "MOOSE",
+          "url": "https://mooseframework.inl.gov/",
+          "description": "Ambiente de simulação multifísica orientado a objetos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "OpenFOAM",
+          "url": "https://www.openfoam.org/",
+          "description": "Caixa de ferramentas de código aberto para dinâmica de fluidos computacional.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "SU2",
+          "url": "https://su2code.github.io/",
+          "description": "Suíte de CFD multifísica e projeto ótimo.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Nek5000",
+          "url": "https://nek5000.mcs.anl.gov/",
+          "description": "Solucionador de CFD por elementos espectrais.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Nektar++",
+          "url": "https://www.nektar.info/",
+          "description": "Estrutura de elementos espectrais/hp para fluidos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "FiPy",
+          "url": "https://www.ctcms.nist.gov/fipy/",
+          "description": "Solucionador de EDPs por volumes finitos para Python.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Clawpack",
+          "url": "https://www.clawpack.org/",
+          "description": "Leis de conservação hiperbólicas e propagação de ondas.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "LAMMPS",
+          "url": "https://www.lammps.org/",
+          "description": "Simulador clássico de dinâmica molecular.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "GROMACS",
+          "url": "https://www.gromacs.org/",
+          "description": "Pacote de dinâmica molecular de alto desempenho.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "OpenMM",
+          "url": "https://openmm.org/",
+          "description": "Kit para simulação molecular com suporte a GPU.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "NAMD",
+          "url": "https://www.ks.uiuc.edu/Research/namd/",
+          "description": "Dinâmica molecular escalável para grandes sistemas biomoleculares.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "PLUMED",
+          "url": "https://www.plumed.org/",
+          "description": "Plugin de amostragem avançada para dinâmica molecular.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Dask",
+          "url": "https://www.dask.org/",
+          "description": "Computação paralela para Python, incluindo grandes conjuntos de dados de física.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "xarray",
+          "url": "https://xarray.dev/",
+          "description": "Arrays multidimensionais rotulados para dados científicos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "HDF5",
+          "url": "https://www.hdfgroup.org/solutions/hdf5/",
+          "description": "Modelo de dados e formato de arquivo para grandes conjuntos de dados.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "NetCDF",
+          "url": "https://www.unidata.ucar.edu/software/netcdf/",
+          "description": "Formato e bibliotecas para dados científicos orientados a arrays.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Zarr",
+          "url": "https://zarr.dev/",
+          "description": "Armazenamento de arrays em blocos e comprimido para a nuvem.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Numba",
+          "url": "https://numba.pydata.org/",
+          "description": "Compilação JIT para Python numérico.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "CuPy",
+          "url": "https://cupy.dev/",
+          "description": "Biblioteca compatível com NumPy para computação em GPU.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "JAX",
+          "url": "https://jax.readthedocs.io/",
+          "description": "Transformações componíveis de programas numéricos com autodiff e suporte a GPU.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "PyTorch",
+          "url": "https://pytorch.org/",
+          "description": "Aprendizado profundo e computação científica diferenciável.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "TensorFlow",
+          "url": "https://www.tensorflow.org/",
+          "description": "Framework de aprendizado de máquina usado em modelos informados pela física.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "scikit-learn",
+          "url": "https://scikit-learn.org/",
+          "description": "Aprendizado de máquina clássico para dados científicos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "DeepXDE",
+          "url": "https://deepxde.readthedocs.io/",
+          "description": "Redes neurais informadas pela física e aprendizado profundo para EDPs.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "PhiFlow",
+          "url": "https://tum-pbs.github.io/PhiFlow/",
+          "description": "Simulação de fluidos diferenciável para pesquisa em aprendizado de máquina.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "OpenFOAM Training Material",
+          "url": "https://openfoam.org/Resources/",
+          "description": "Tutoriais e documentação oficiais.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Wolfram Engine",
+          "url": "https://www.wolfram.com/engine/",
+          "description": "Motor gratuito da Wolfram Language para desenvolvedores.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "Wolfram Cloud",
+          "url": "https://www.wolframcloud.com/",
+          "description": "Computação em notebooks na nuvem.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "Symbolic Math with SymPy Live",
+          "url": "https://live.sympy.org/",
+          "description": "Computação simbólica diretamente no navegador.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Informação e Computação Quântica",
+      "slug": "informação-e-computação-quântica",
+      "resources": [
+        {
+          "name": "Qiskit",
+          "url": "https://www.ibm.com/quantum/qiskit",
+          "description": "SDK de código aberto para computação quântica em hardware e simuladores da IBM.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Cirq",
+          "url": "https://quantumai.google/cirq",
+          "description": "Framework para programar computadores quânticos de escala intermediária e ruidosa.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "PennyLane",
+          "url": "https://pennylane.ai/",
+          "description": "Biblioteca multiplataforma para aprendizado de máquina quântico e programação diferenciável.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "QuTiP",
+          "url": "https://qutip.org/",
+          "description": "Quantum Toolbox em Python para sistemas quânticos abertos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "ProjectQ",
+          "url": "https://projectq.ch/",
+          "description": "Framework de computação quântica de código aberto.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "OpenFermion",
+          "url": "https://quantumai.google/openfermion",
+          "description": "Biblioteca para simulação quântica de sistemas fermiônicos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Strawberry Fields",
+          "url": "https://strawberryfields.ai/",
+          "description": "Biblioteca completa para computação quântica fotônica.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Quirk",
+          "url": "https://algassert.com/quirk",
+          "description": "Simulador de circuitos quânticos no navegador com arrastar e soltar.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Quantum Katas",
+          "url": "https://github.com/microsoft/QuantumKatas",
+          "description": "Tutoriais no seu ritmo para computação quântica e Q#.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Quantum Country",
+          "url": "https://quantum.country/",
+          "description": "Ensaios com repetição espaçada sobre computação quântica.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "John Preskill's Lecture Notes",
+          "url": "https://www.preskill.caltech.edu/ph219/index.html",
+          "description": "Notas sobre computação e informação quântica.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Quantum Open Source Foundation",
+          "url": "https://qosf.org/",
+          "description": "Comunidade que promove software quântico aberto.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Unitary Fund",
+          "url": "https://unitary.fund/",
+          "description": "Organização sem fins lucrativos que apoia tecnologia quântica aberta.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "QuSpin",
+          "url": "https://quspin.github.io/QuSpin/",
+          "description": "Diagonalização exata e dinâmica para sistemas quânticos de muitos corpos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "ITensor",
+          "url": "https://itensor.org/",
+          "description": "Biblioteca de redes tensoriais para sistemas quânticos de muitos corpos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "TeNPy",
+          "url": "https://tenpy.readthedocs.io/",
+          "description": "Biblioteca Python de redes tensoriais.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "quimb",
+          "url": "https://quimb.readthedocs.io/",
+          "description": "Computações de informação quântica e de muitos corpos em Python.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "NetKet",
+          "url": "https://netket.readthedocs.io/",
+          "description": "Aprendizado de máquina para sistemas quânticos de muitos corpos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "PySCF",
+          "url": "https://pyscf.org/",
+          "description": "Estrutura eletrônica e química quântica baseadas em Python.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "OpenFermion–PySCF",
+          "url": "https://github.com/quantumlib/OpenFermion-PySCF",
+          "description": "Ponte entre química quântica e simulação quântica.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "IBM Quantum",
+          "url": "https://quantum.ibm.com/",
+          "description": "Acesso na nuvem a processadores quânticos e simuladores da IBM.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "Amazon Braket",
+          "url": "https://aws.amazon.com/braket/",
+          "description": "Serviço gerenciado de computação quântica com nível gratuito.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "Azure Quantum",
+          "url": "https://azure.microsoft.com/en-us/products/quantum",
+          "description": "Computação quântica e otimização na nuvem.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "Google Quantum AI",
+          "url": "https://quantumai.google/",
+          "description": "Pesquisa, hardware e ferramentas de código aberto.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Classiq",
+          "url": "https://www.classiq.io/",
+          "description": "Plataforma de alto nível para projeto de algoritmos quânticos.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "Quantum Journal",
+          "url": "https://quantum-journal.org/",
+          "description": "Periódico de acesso aberto para ciência quântica.",
+          "tags": [
+            "OA",
+            "CC",
+            "RSS"
+          ]
+        },
+        {
+          "name": "PRX Quantum",
+          "url": "https://journals.aps.org/prxquantum/",
+          "description": "Periódico de acesso aberto sobre informação quântica.",
+          "tags": [
+            "OA",
+            "RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Matéria Condensada, Materiais e Química Computacional",
+      "slug": "matéria-condensada-materiais-e-química-computacional",
+      "resources": [
+        {
+          "name": "pymatgen",
+          "url": "https://pymatgen.org/",
+          "description": "Biblioteca Python para análise de materiais e estrutura eletrônica.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "ASE",
+          "url": "https://wiki.fysik.dtu.dk/ase/",
+          "description": "Atomic Simulation Environment para preparar e executar cálculos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "AiiDA",
+          "url": "https://www.aiida.net/",
+          "description": "Gerenciador de fluxos de trabalho para ciência computacional com rastreamento de proveniência.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Quantum ESPRESSO",
+          "url": "https://www.quantum-espresso.org/",
+          "description": "Suíte integrada para estrutura eletrônica e modelagem de materiais.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "ABINIT",
+          "url": "https://www.abinit.org/",
+          "description": "DFT, teoria de perturbação de muitos corpos e mais.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "CP2K",
+          "url": "https://www.cp2k.org/",
+          "description": "Simulações atomísticas e moleculares de sistemas sólidos, líquidos e biológicos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "GPAW",
+          "url": "https://wiki.fysik.dtu.dk/gpaw/",
+          "description": "DFT baseada em grades em Python.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "SIESTA",
+          "url": "https://siesta-project.org/",
+          "description": "DFT com orbitais atômicos localizados.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Octopus",
+          "url": "https://octopus-code.org/",
+          "description": "DFT dependente do tempo no espaço real.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "DFTB+",
+          "url": "https://dftbplus.org/",
+          "description": "Cálculos DFTB semiempíricos rápidos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "exciting",
+          "url": "https://exciting-code.org/",
+          "description": "Código DFT de todos os elétrons.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "FLEUR",
+          "url": "https://www.flapw.de/",
+          "description": "Código de ondas planas aumentadas linearizadas com potencial completo.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Elk",
+          "url": "https://elk.sourceforge.io/",
+          "description": "Código LAPW de potencial completo com todos os elétrons.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "BerkeleyGW",
+          "url": "https://berkeleygw.org/",
+          "description": "Cálculos GW e de Bethe-Salpeter.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Yambo",
+          "url": "https://www.yambo-code.eu/",
+          "description": "Teoria de perturbação de muitos corpos para estados excitados.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Wannier90",
+          "url": "https://wannier.org/",
+          "description": "Funções de Wannier maximamente localizadas.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "WannierTools",
+          "url": "https://github.com/quanshengwu/wannier_tools",
+          "description": "Propriedades topológicas a partir de hamiltonianas de Wannier.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "phonopy",
+          "url": "https://phonopy.github.io/phonopy/",
+          "description": "Cálculos de fônons a partir de primeiros princípios.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "EPW",
+          "url": "https://epw-code.org/",
+          "description": "Acoplamento elétron-fônon com funções de Wannier.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Psi4",
+          "url": "https://psicode.org/",
+          "description": "Pacote de química quântica de código aberto.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "NWChem",
+          "url": "https://nwchemgit.github.io/",
+          "description": "Kit escalável de química computacional.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Avogadro",
+          "url": "https://avogadro.cc/",
+          "description": "Editor e visualizador de moléculas.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "VMD",
+          "url": "https://www.ks.uiuc.edu/Research/vmd/",
+          "description": "Visualização e análise molecular.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "PyMOL",
+          "url": "https://pymol.org/",
+          "description": "Sistema de gráficos moleculares com núcleo de código aberto.",
+          "tags": [
+            "OS",
+            "Freemium"
+          ]
+        },
+        {
+          "name": "UCSF ChimeraX",
+          "url": "https://www.cgl.ucsf.edu/chimerax/",
+          "description": "Visualização e análise molecular.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "Open Babel",
+          "url": "https://openbabel.org/",
+          "description": "Kit químico para converter formatos de arquivo.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "RDKit",
+          "url": "https://www.rdkit.org/",
+          "description": "Kit de quimioinformática e aprendizado de máquina.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "MDAnalysis",
+          "url": "https://www.mdanalysis.org/",
+          "description": "Biblioteca Python para trajetórias de dinâmica molecular.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "MDTraj",
+          "url": "https://www.mdtraj.org/",
+          "description": "Análise de trajetórias de dinâmica molecular.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "OVITO",
+          "url": "https://www.ovito.org/",
+          "description": "Visualização e análise de simulações de partículas.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "VESTA",
+          "url": "https://jp-minerals.org/vesta/en/",
+          "description": "Visualização 3D de estruturas cristalinas e dados volumétricos.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "XCrySDen",
+          "url": "http://www.xcrysden.org/",
+          "description": "Visualização de estruturas cristalinas e moleculares.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Jmol",
+          "url": "https://jmol.sourceforge.net/",
+          "description": "Visualizador Java para estruturas químicas em 3D.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Materials Project",
+          "url": "https://materialsproject.org/",
+          "description": "Propriedades computadas para dezenas de milhares de materiais.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "AFLOW",
+          "url": "http://aflow.org/",
+          "description": "Banco de dados automatizado de propriedades de materiais.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "OQMD",
+          "url": "https://oqmd.org/",
+          "description": "Open Quantum Materials Database.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "NOMAD",
+          "url": "https://nomad-lab.eu/",
+          "description": "Repositório aberto para dados de ciência de materiais.",
+          "tags": [
+            "Data",
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Crystallography Open Database",
+          "url": "https://www.crystallography.net/cod/",
+          "description": "Banco de dados aberto de estruturas cristalinas.",
+          "tags": [
+            "Data",
+            "CC",
+            "Free"
+          ]
+        },
+        {
+          "name": "Bilbao Crystallographic Server",
+          "url": "https://www.cryst.ehu.eus/",
+          "description": "Ferramentas de simetria cristalográfica.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "spglib",
+          "url": "https://spglib.github.io/spglib/",
+          "description": "Biblioteca de detecção de simetria cristalina.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Astronomia, Espaço e Astrofísica",
+      "slug": "astronomia-espaço-e-astrofísica",
+      "resources": [
+        {
+          "name": "NASA ADS",
+          "url": "https://ui.adsabs.harvard.edu/",
+          "description": "Banco de dados bibliográfico para astronomia e física.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "arXiv astro-ph",
+          "url": "https://arxiv.org/list/astro-ph/recent",
+          "description": "Preprints de astronomia e astrofísica.",
+          "tags": [
+            "OA",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "SIMBAD",
+          "url": "http://simbad.u-strasbg.fr/",
+          "description": "Banco de dados de referência para objetos astronômicos.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "VizieR",
+          "url": "https://vizier.cds.unistra.fr/",
+          "description": "Serviço de catálogos do CDS.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "NASA/IPAC Extragalactic Database (NED)",
+          "url": "https://ned.ipac.caltech.edu/",
+          "description": "Dados multi-comprimento de onda para objetos extragalácticos.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "MAST",
+          "url": "https://mast.stsci.edu/",
+          "description": "Mikulski Archive for Space Telescopes, com dados do Hubble e do JWST.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "ESO Archive",
+          "url": "https://archive.eso.org/",
+          "description": "Dados de telescópios do ESO, incluindo o VLT e o ALMA.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "ESA Science Archives",
+          "url": "https://archives.esac.esa.int/",
+          "description": "Arquivos das missões XMM-Newton, Gaia, Planck e outras.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "Gaia Archive",
+          "url": "https://gea.esac.esa.int/archive/",
+          "description": "Astrometria, fotometria e espectroscopia de bilhões de estrelas.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "SDSS",
+          "url": "https://www.sdss.org/",
+          "description": "Dados e ferramentas do Sloan Digital Sky Survey.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "DESI",
+          "url": "https://www.desi.lbl.gov/",
+          "description": "Dados do Dark Energy Spectroscopic Instrument.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "Rubin Observatory / LSST",
+          "url": "https://www.lsst.org/",
+          "description": "Dados e documentação do futuro telescópio de levantamento.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "JWST",
+          "url": "https://webbtelescope.org/",
+          "description": "Ciência e dados do Telescópio Espacial James Webb.",
+          "tags": [
+            "Data",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "HubbleSite",
+          "url": "https://hubblesite.org/",
+          "description": "Imagens e notícias do Telescópio Espacial Hubble.",
+          "tags": [
+            "OA",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "HEASARC",
+          "url": "https://heasarc.gsfc.nasa.gov/",
+          "description": "Arquivo de dados de astrofísica de altas energias.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "Chandra X-ray Center",
+          "url": "https://cxc.harvard.edu/",
+          "description": "Dados, software e guias de análise do Chandra.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "NASA APOD",
+          "url": "https://apod.nasa.gov/apod/",
+          "description": "Imagem Astronômica do Dia.",
+          "tags": [
+            "OA",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "JPL Horizons",
+          "url": "https://ssd.jpl.nasa.gov/horizons/",
+          "description": "Efemérides para corpos do sistema solar.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "Minor Planet Center",
+          "url": "https://www.minorplanetcenter.net/",
+          "description": "Observações e órbitas de pequenos corpos.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "AAVSO",
+          "url": "https://www.aavso.org/",
+          "description": "Dados e ferramentas da American Association of Variable Star Observers.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "Zooniverse",
+          "url": "https://www.zooniverse.org/",
+          "description": "Plataforma de ciência cidadã com muitos projetos de astronomia.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Stellarium",
+          "url": "https://stellarium.org/",
+          "description": "Software de planetário de código aberto.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Celestia",
+          "url": "https://celestia.space/",
+          "description": "Simulação 3D gratuita do espaço.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Gaia Sky",
+          "url": "https://gaiasky.space/",
+          "description": "Visualizador 3D do universo construído com dados do Gaia.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "WorldWide Telescope",
+          "url": "https://www.worldwidetelescope.org/",
+          "description": "Exploração imersiva do céu e do universo.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Aladin Sky Atlas",
+          "url": "https://aladin.cds.unistra.fr/",
+          "description": "Atlas celeste interativo com acesso a dados de levantamentos.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "SAOImageDS9",
+          "url": "https://ds9.si.edu/",
+          "description": "Imagens astronômicas e visualização de dados.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "TOPCAT",
+          "url": "https://www.star.bristol.ac.uk/mbt/topcat/",
+          "description": "Ferramenta para cruzamento de catálogos e visualização.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Astropy",
+          "url": "https://www.astropy.org/",
+          "description": "Pacote Python central para astronomia.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "SunPy",
+          "url": "https://sunpy.org/",
+          "description": "Python para física solar.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "astroquery",
+          "url": "https://astroquery.readthedocs.io/",
+          "description": "Acesso em Python a arquivos e serviços astronômicos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "healpy",
+          "url": "https://healpy.readthedocs.io/",
+          "description": "Pixelização esférica para CMB e mapas do céu.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Skyfield",
+          "url": "https://rhodesmill.org/skyfield/",
+          "description": "Cálculos astronômicos de alta precisão em Python.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "PyEphem",
+          "url": "https://rhodesmill.org/pyephem/",
+          "description": "Cálculos de efemérides para planetas e estrelas.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "lightkurve",
+          "url": "https://lightkurve.github.io/lightkurve/",
+          "description": "Análise de curvas de luz do Kepler e do TESS.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "exoplanet",
+          "url": "https://exoplanet.readthedocs.io/",
+          "description": "Modelagem e ajuste de dados de exoplanetas.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "emcee",
+          "url": "https://emcee.readthedocs.io/",
+          "description": "Amostrador MCMC invariante afim para astronomia.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "dynesty",
+          "url": "https://dynesty.readthedocs.io/",
+          "description": "Amostragem aninhada dinâmica.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "corner.py",
+          "url": "https://corner.readthedocs.io/",
+          "description": "Gráficos de canto para distribuições a posteriori.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "CAMB",
+          "url": "https://camb.info/",
+          "description": "Código para anisotropias da radiação cósmica de fundo.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "CLASS",
+          "url": "https://github.com/lesgourg/class_public",
+          "description": "Código de Boltzmann cosmológico.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Cobaya",
+          "url": "https://cobaya.readthedocs.io/",
+          "description": "Análise bayesiana de dados cosmológicos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "nbodykit",
+          "url": "https://nbodykit.readthedocs.io/",
+          "description": "Análise de simulações e dados de estrutura em larga escala.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "yt",
+          "url": "https://yt-project.org/",
+          "description": "Análise e visualização de dados de simulações astrofísicas.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "pynbody",
+          "url": "https://pynbody.github.io/pynbody/",
+          "description": "Análise de simulações de N corpos e hidrodinâmicas.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "REBOUND",
+          "url": "https://rebound.readthedocs.io/",
+          "description": "Integrador de N corpos para dinâmica planetária e estelar.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "poliastro",
+          "url": "https://poliastro.readthedocs.io/",
+          "description": "Astrodinâmica e mecânica orbital em Python.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "SPICE Toolkit",
+          "url": "https://naif.jpl.nasa.gov/naif/",
+          "description": "Kit de geometria de observação e efemérides da NASA.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "SpiceyPy",
+          "url": "https://spiceypy.readthedocs.io/",
+          "description": "Wrapper Python para o kit SPICE.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Orekit",
+          "url": "https://www.orekit.org/",
+          "description": "Biblioteca de código aberto para dinâmica de voo.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "GMAT",
+          "url": "https://sourceforge.net/projects/gmat/",
+          "description": "General Mission Analysis Tool para trajetórias espaciais.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "CelesTrak",
+          "url": "https://celestrak.org/",
+          "description": "Conjuntos de elementos de duas linhas e dados de rastreamento de satélites.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "Heavens Above",
+          "url": "https://heavens-above.com/",
+          "description": "Previsões de observação de satélites e do céu.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "Solar System Scope",
+          "url": "https://www.solarsystemscope.com/",
+          "description": "Exploração interativa do sistema solar.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "NASA Eyes",
+          "url": "https://eyes.nasa.gov/",
+          "description": "Visualização imersiva em tempo real do sistema solar e de missões.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "SpaceWeather.com",
+          "url": "https://spaceweather.com/",
+          "description": "Atividade solar, auroras e previsões geomagnéticas.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "NOAA Space Weather Prediction Center",
+          "url": "https://www.swpc.noaa.gov/",
+          "description": "Dados e previsões oficiais de clima espacial.",
+          "tags": [
+            "Data",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Helioviewer",
+          "url": "https://helioviewer.org/",
+          "description": "Navegação de imagens solares e criação de vídeos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "IllustrisTNG",
+          "url": "https://www.tng-project.org/",
+          "description": "Dados públicos de simulação cosmológica.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "EAGLE Simulations",
+          "url": "http://icc.dur.ac.uk/Eagle/",
+          "description": "Dados de simulação de formação de galáxias.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "NASA Open Data Portal",
+          "url": "https://data.nasa.gov/",
+          "description": "Milhares de conjuntos de dados e APIs da NASA.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "NASA API Portal",
+          "url": "https://api.nasa.gov/",
+          "description": "APIs gratuitas, incluindo APOD e objetos próximos da Terra.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "ESA Open Access",
+          "url": "https://www.esa.int/",
+          "description": "Dados e publicações abertas da ESA.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "International Astronomical Union",
+          "url": "https://www.iau.org/",
+          "description": "Nomenclatura, padrões e coordenação.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "International Dark-Sky Association",
+          "url": "https://www.darksky.org/",
+          "description": "Poluição luminosa e preservação do céu escuro.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Física de Partículas, Nuclear e de Aceleradores",
+      "slug": "física-de-partículas-nuclear-e-de-aceleradores",
+      "resources": [
+        {
+          "name": "CERN Open Data Portal",
+          "url": "https://opendata.cern.ch/",
+          "description": "Dados reais do LHC e ferramentas de análise para educação e pesquisa.",
+          "tags": [
+            "Data",
+            "CC",
+            "Free"
+          ]
+        },
+        {
+          "name": "INSPIRE-HEP",
+          "url": "https://inspirehep.net/",
+          "description": "Literatura, autores e dados de física de altas energias.",
+          "tags": [
+            "Data",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Particle Data Group (PDG)",
+          "url": "https://pdg.lbl.gov/",
+          "description": "Revisão de referência sobre as propriedades das partículas.",
+          "tags": [
+            "OA",
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "HepData",
+          "url": "https://www.hepdata.net/",
+          "description": "Repositório de seções de choque e dados de espalhamento.",
+          "tags": [
+            "Data",
+            "CC",
+            "Free"
+          ]
+        },
+        {
+          "name": "ROOT",
+          "url": "https://root.cern/",
+          "description": "Framework de análise de dados usado em toda a física de partículas.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Geant4",
+          "url": "https://geant4.web.cern.ch/",
+          "description": "Kit para simular a passagem de partículas pela matéria.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Pythia",
+          "url": "https://pythia.org/",
+          "description": "Gerador de eventos Monte Carlo para colisões de alta energia.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Herwig",
+          "url": "https://herwig.hepforge.org/",
+          "description": "Gerador de eventos Monte Carlo de propósito geral.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Sherpa",
+          "url": "https://sherpa-team.gitlab.io/",
+          "description": "Gerador de eventos e framework de simulação.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "MadGraph5_aMC@NLO",
+          "url": "https://launchpad.net/mg5amcnlo",
+          "description": "Geração automatizada de elementos de matriz e eventos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Whizard",
+          "url": "https://whizard.hepforge.org/",
+          "description": "Gerador de eventos com foco em colisores de léptons.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "EvtGen",
+          "url": "https://evtgen.hepforge.org/",
+          "description": "Simulação de decaimentos para física de sabores pesados.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Delphes",
+          "url": "https://delphes.github.io/",
+          "description": "Simulação rápida de um detector de colisor genérico.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Rivet",
+          "url": "https://rivet.hepforge.org/",
+          "description": "Kit de análise para comparar dados e geradores.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "FastJet",
+          "url": "https://fastjet.fr/",
+          "description": "Algoritmos de identificação de jatos para física de colisores.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "LHAPDF",
+          "url": "https://lhapdf.hepforge.org/",
+          "description": "Biblioteca de funções de distribuição de pártons.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "HepMC3",
+          "url": "https://hepmc.web.cern.ch/",
+          "description": "Formato de registro de eventos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Key4hep",
+          "url": "https://key4hep.github.io/",
+          "description": "Pilha de software comum para futuros colisores.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Scikit-HEP",
+          "url": "https://scikit-hep.org/",
+          "description": "Ferramentas Python para análise em física de partículas.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "uproot",
+          "url": "https://uproot.readthedocs.io/",
+          "description": "Ler e escrever arquivos ROOT em Python puro.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "zfit",
+          "url": "https://zfit.readthedocs.io/",
+          "description": "Biblioteca de ajuste estatístico para HEP.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "CMSSW",
+          "url": "https://cms-sw.github.io/",
+          "description": "Framework de software do experimento CMS.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "ATLAS Software",
+          "url": "https://atlas.cern/",
+          "description": "Software e computação para o experimento ATLAS.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "ALICE O2",
+          "url": "https://alice-o2.web.cern.ch/",
+          "description": "Computação offline e online do experimento ALICE.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "LHCb Software",
+          "url": "https://github.com/lhcb",
+          "description": "Pilha de software do experimento LHCb.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Combine",
+          "url": "https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/",
+          "description": "Inferência estatística para análises do CMS.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "BAT.jl",
+          "url": "https://bat.readthedocs.io/",
+          "description": "Kit de análise bayesiana em Julia.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "TALYS",
+          "url": "https://nds.iaea.org/talys/",
+          "description": "Código de simulação de reações nucleares.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "OpenMC",
+          "url": "https://openmc.org/",
+          "description": "Transporte de nêutrons e fótons por Monte Carlo.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "National Nuclear Data Center",
+          "url": "https://www.nndc.bnl.gov/",
+          "description": "Dados de estrutura e decaimento nuclear.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "NuDat",
+          "url": "https://www.nndc.bnl.gov/nudat3/",
+          "description": "Busca de dados de estrutura e decaimento nuclear.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "IAEA Nuclear Data Services",
+          "url": "https://www-nds.iaea.org/",
+          "description": "Bibliotecas e ferramentas de dados nucleares.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "EXFOR",
+          "url": "https://www-nds.iaea.org/exfor/",
+          "description": "Dados experimentais de reações nucleares.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "ENDF",
+          "url": "https://www.nndc.bnl.gov/endf/",
+          "description": "Bibliotecas de arquivos avaliados de dados nucleares.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "JANIS",
+          "url": "https://www.oecd-nea.org/janis/",
+          "description": "Visualização e análise de dados nucleares em Java.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "Bmad",
+          "url": "https://www.classe.cornell.edu/bmad/",
+          "description": "Dinâmica relativística de partículas carregadas para aceleradores.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "ASTRA",
+          "url": "https://www.desy.de/~mpyflo/",
+          "description": "Rastreamento de partículas para fotoinjetores.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "CERN Document Server",
+          "url": "https://cds.cern.ch/",
+          "description": "Relatórios, teses e multimídia do CERN.",
+          "tags": [
+            "Data",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "HepSoftware Foundation",
+          "url": "https://hepsoftwarefoundation.org/",
+          "description": "Comunidade que coordena o software de HEP.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "IRIS-HEP",
+          "url": "https://iris-hep.org/",
+          "description": "Instituto de pesquisa e inovação em software de HEP.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "CERN",
+          "url": "https://home.cern/",
+          "description": "A Organização Europeia para Pesquisa Nuclear.",
+          "tags": [
+            "OA",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Fermilab",
+          "url": "https://www.fnal.gov/",
+          "description": "Laboratório de física de partículas dos Estados Unidos.",
+          "tags": [
+            "OA",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Symmetry Magazine",
+          "url": "https://www.symmetrymagazine.org/",
+          "description": "Notícias de física de partículas do Fermilab e do SLAC.",
+          "tags": [
+            "OA",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Interactions.org",
+          "url": "https://www.interactions.org/",
+          "description": "Notícias e recursos de física de partículas.",
+          "tags": [
+            "OA",
+            "Free",
+            "RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Plasma, Fluidos e Dinâmica Não Linear",
+      "slug": "plasma-fluidos-e-dinâmica-não-linear",
+      "resources": [
+        {
+          "name": "PlasmaPy",
+          "url": "https://plasmapy.org/",
+          "description": "Pacote Python de código aberto para física de plasmas.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "WarpX",
+          "url": "https://warpx.readthedocs.io/",
+          "description": "Simulação particle-in-cell em escala exa para plasmas e aceleradores.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Smilei",
+          "url": "https://smileipic.github.io/Smilei/",
+          "description": "Código particle-in-cell para interação laser-plasma.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "EPOCH",
+          "url": "https://epochpic.github.io/",
+          "description": "Código de simulação PIC de plasma.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "PIConGPU",
+          "url": "https://picongpu.readthedocs.io/",
+          "description": "Código particle-in-cell massivamente paralelo.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Gkeyll",
+          "url": "https://gkeyll.readthedocs.io/",
+          "description": "Framework de simulação de plasma.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Dedalus",
+          "url": "https://dedalus-project.org/",
+          "description": "Métodos espectrais para dinâmica de fluidos e plasmas.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "OpenFOAM",
+          "url": "https://openfoam.org/",
+          "description": "Caixa de ferramentas de CFD de código aberto para fluidos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Basilisk",
+          "url": "http://basilisk.fr/",
+          "description": "Solucionador com malha adaptativa para interfaces de fluidos e gotas.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Elmer",
+          "url": "https://www.csc.fi/web/elmer",
+          "description": "Software de simulação multifísica.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Code_Aster",
+          "url": "https://www.code-aster.org/",
+          "description": "Análise por elementos finitos para estruturas e termomecânica.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "CalculiX",
+          "url": "http://www.calculix.de/",
+          "description": "Solucionador tridimensional de elementos finitos estruturais.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Gridap.jl",
+          "url": "https://gridap.github.io/Gridap.jl/stable/",
+          "description": "Biblioteca de elementos finitos em Julia.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Trixi.jl",
+          "url": "https://trixi-framework.github.io/",
+          "description": "CFD adaptativa de alta ordem em Julia.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Ferrite.jl",
+          "url": "https://ferrite-fem.github.io/",
+          "description": "Kit de elementos finitos em Julia.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "pynamical",
+          "url": "https://pynamical.readthedocs.io/",
+          "description": "Pacote Python para sistemas dinâmicos e caos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "PyDSTool",
+          "url": "https://pydstool.github.io/",
+          "description": "Modelagem e simulação de sistemas dinâmicos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Gravitação, Relatividade e Ondas Gravitacionais",
+      "slug": "gravitação-relatividade-e-ondas-gravitacionais",
+      "resources": [
+        {
+          "name": "GWOSC",
+          "url": "https://gwosc.org/",
+          "description": "Liberações de dados do Gravitational Wave Open Science Center.",
+          "tags": [
+            "Data",
+            "CC",
+            "Free"
+          ]
+        },
+        {
+          "name": "GWpy",
+          "url": "https://gwpy.github.io/",
+          "description": "Biblioteca Python para dados de ondas gravitacionais.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "PyCBC",
+          "url": "https://pycbc.org/",
+          "description": "Software para detecção e análise de ondas gravitacionais.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "bilby",
+          "url": "https://lscsoft.docs.ligo.org/bilby/",
+          "description": "Inferência bayesiana para astronomia de ondas gravitacionais.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "LALSuite",
+          "url": "https://lscsoft.docs.ligo.org/lalsuite/",
+          "description": "Conjunto de bibliotecas de análise do LIGO.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "gwsurrogate",
+          "url": "https://gwsurrogate.readthedocs.io/",
+          "description": "Modelos substitutos (surrogates) de ondas gravitacionais.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Einstein Toolkit",
+          "url": "https://einsteintoolkit.org/",
+          "description": "Software comunitário para relatividade numérica.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "NRPy+",
+          "url": "https://blackholesathome.net/",
+          "description": "Geração de código em Python para relatividade numérica.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "kuibit",
+          "url": "https://sbozzolo.github.io/kuibit/",
+          "description": "Ferramentas Python para analisar simulações de relatividade numérica.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Simulating eXtreme Spacetimes",
+          "url": "https://www.black-holes.org/",
+          "description": "Catálogos públicos de formas de onda e dados de simulação.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "LIGO",
+          "url": "https://www.ligo.org/",
+          "description": "Observatório de ondas gravitacionais por interferometria a laser.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Virgo",
+          "url": "https://www.virgo-gw.eu/",
+          "description": "Observatório europeu de ondas gravitacionais.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "KAGRA",
+          "url": "https://gwcenter.icrr.u-tokyo.ac.jp/en/",
+          "description": "Observatório japonês de ondas gravitacionais.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Einstein Telescope",
+          "url": "https://www.et-gw.eu/",
+          "description": "Detector europeu de terceira geração planejado.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Cosmic Explorer",
+          "url": "https://cosmicexplorer.org/",
+          "description": "Detector de próxima geração planejado nos Estados Unidos.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "LISA",
+          "url": "https://www.lisamission.org/",
+          "description": "Observatório espacial de ondas gravitacionais.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "NANOGrav",
+          "url": "https://nanograv.org/",
+          "description": "Conjunto de pulsares para ondas gravitacionais de nanohertz.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "IPTA",
+          "url": "https://ipta4gw.org/",
+          "description": "International Pulsar Timing Array.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "Carroll's General Relativity Lecture Notes",
+          "url": "https://arxiv.org/abs/gr-qc/9712019",
+          "description": "Introdução amplamente usada à relatividade geral.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Living Reviews in Relativity",
+          "url": "https://link.springer.com/journal/41114",
+          "description": "Periódico de revisão de acesso aberto para relatividade.",
+          "tags": [
+            "OA",
+            "RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Descoberta de Pesquisa e Gestão de Literatura",
+      "slug": "descoberta-de-pesquisa-e-gestão-de-literatura",
+      "resources": [
+        {
+          "name": "Google Scholar",
+          "url": "https://scholar.google.com/",
+          "description": "Amplo motor de busca acadêmica entre disciplinas.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "Semantic Scholar",
+          "url": "https://www.semanticscholar.org/",
+          "description": "Busca acadêmica com IA e contexto de citações.",
+          "tags": [
+            "Free",
+            "Data"
+          ]
+        },
+        {
+          "name": "OpenAlex",
+          "url": "https://openalex.org/",
+          "description": "Catálogo aberto de trabalhos acadêmicos, autores e instituições.",
+          "tags": [
+            "OS",
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "Crossref",
+          "url": "https://www.crossref.org/",
+          "description": "Metadados e DOIs para conteúdo acadêmico.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "DataCite",
+          "url": "https://datacite.org/",
+          "description": "DOIs para dados de pesquisa.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "ORCID",
+          "url": "https://orcid.org/",
+          "description": "Identificadores digitais persistentes para pesquisadores.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "CORE",
+          "url": "https://core.ac.uk/",
+          "description": "Agregador de artigos de pesquisa de acesso aberto.",
+          "tags": [
+            "OA",
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "BASE",
+          "url": "https://www.base-search.net/",
+          "description": "Motor de busca para repositórios acadêmicos de acesso aberto.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "OpenAIRE",
+          "url": "https://www.openaire.eu/",
+          "description": "Infraestrutura e descoberta para ciência aberta.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Unpaywall",
+          "url": "https://unpaywall.org/",
+          "description": "Encontra versões legais de acesso aberto de artigos pagos.",
+          "tags": [
+            "OS",
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "Sherpa Romeo",
+          "url": "https://v2.sherpa.ac.uk/romeo/",
+          "description": "Políticas de acesso aberto e autoarquivamento das editoras.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "DOAJ",
+          "url": "https://doaj.org/",
+          "description": "Diretório de Periódicos de Acesso Aberto.",
+          "tags": [
+            "OA",
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "Dimensions",
+          "url": "https://app.dimensions.ai/",
+          "description": "Dados de pesquisa vinculados e análises.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "Lens.org",
+          "url": "https://www.lens.org/",
+          "description": "Busca acadêmica e de patentes.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "Connected Papers",
+          "url": "https://www.connectedpapers.com/",
+          "description": "Exploração visual em grafo de artigos relacionados.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "ResearchRabbit",
+          "url": "https://www.researchrabbit.ai/",
+          "description": "Descoberta de literatura e mapeamento de coleções.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "Litmaps",
+          "url": "https://www.litmaps.com/",
+          "description": "Mapeamento visual de literatura e alertas.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "Inciteful",
+          "url": "https://inciteful.xyz/",
+          "description": "Exploração de grafos de citações.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "Elicit",
+          "url": "https://elicit.com/",
+          "description": "Assistente de pesquisa com IA para revisão de literatura.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "Consensus",
+          "url": "https://consensus.app/",
+          "description": "Busca com IA na literatura científica.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "Zotero",
+          "url": "https://www.zotero.org/",
+          "description": "Gerenciador de referências e citações de código aberto.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "JabRef",
+          "url": "https://www.jabref.org/",
+          "description": "Gerenciador BibTeX de código aberto.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Mendeley",
+          "url": "https://www.mendeley.com/",
+          "description": "Gerenciador de referências com anotação de PDF.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "ReadCube Papers",
+          "url": "https://www.papersapp.com/",
+          "description": "Gestão de referências e ferramentas de PDF.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "Better BibTeX for Zotero",
+          "url": "https://retorque.re/zotero-better-bibtex/",
+          "description": "Chaves de citação e exportação BibTeX aprimoradas.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "bibtex-tidy",
+          "url": "https://github.com/FlamingTempura/bibtex-tidy",
+          "description": "Limpador e formatador de arquivos BibTeX.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Preprints, Repositórios e Ciência Aberta",
+      "slug": "preprints-repositórios-e-ciência-aberta",
+      "resources": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/",
+          "description": "O principal servidor de preprints para física e áreas relacionadas.",
+          "tags": [
+            "OA",
+            "CC",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "ChemRxiv",
+          "url": "https://chemrxiv.org/",
+          "description": "Preprints em química e áreas relacionadas.",
+          "tags": [
+            "OA",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "EarthArXiv",
+          "url": "https://eartharxiv.org/",
+          "description": "Preprints em ciências da Terra e do espaço.",
+          "tags": [
+            "OA",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "TechRxiv",
+          "url": "https://www.techrxiv.org/",
+          "description": "Preprints em engenharia e tecnologia.",
+          "tags": [
+            "OA",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "HAL",
+          "url": "https://hal.science/",
+          "description": "Repositório nacional francês de acesso aberto.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Zenodo",
+          "url": "https://zenodo.org/",
+          "description": "Repositório aberto de propósito geral para dados, software e artigos.",
+          "tags": [
+            "OA",
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "Figshare",
+          "url": "https://figshare.com/",
+          "description": "Repositório de resultados de pesquisa com DOIs.",
+          "tags": [
+            "Freemium",
+            "Data"
+          ]
+        },
+        {
+          "name": "OSF",
+          "url": "https://osf.io/",
+          "description": "Open Science Framework para gestão e compartilhamento de projetos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Dryad",
+          "url": "https://datadryad.org/",
+          "description": "Repositório curado para dados de pesquisa.",
+          "tags": [
+            "OA",
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "Mendeley Data",
+          "url": "https://data.mendeley.com/",
+          "description": "Repositório aberto para dados de pesquisa.",
+          "tags": [
+            "Free",
+            "Data"
+          ]
+        },
+        {
+          "name": "Open Science Framework Preprints",
+          "url": "https://osf.io/preprints/",
+          "description": "Servidores de preprints comunitários.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "JOSS",
+          "url": "https://joss.theoj.org/",
+          "description": "Journal of Open Source Software para software de pesquisa.",
+          "tags": [
+            "OA",
+            "CC",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Software Heritage",
+          "url": "https://www.softwareheritage.org/",
+          "description": "Arquivo universal de código-fonte.",
+          "tags": [
+            "OS",
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "The Open Journal of Astrophysics",
+          "url": "https://astro.theoj.org/",
+          "description": "Periódico de astrofísica de acesso aberto.",
+          "tags": [
+            "OA",
+            "CC",
+            "RSS"
+          ]
+        },
+        {
+          "name": "SciPost",
+          "url": "https://scipost.org/",
+          "description": "Editora de física de acesso aberto sem fins lucrativos.",
+          "tags": [
+            "OA",
+            "CC",
+            "RSS"
+          ]
+        },
+        {
+          "name": "SciPost Physics Lecture Notes",
+          "url": "https://scipost.org/SciPostPhysLectNotes",
+          "description": "Notas de aula abertas.",
+          "tags": [
+            "OA",
+            "CC",
+            "RSS"
+          ]
+        },
+        {
+          "name": "F1000Research",
+          "url": "https://f1000research.com/",
+          "description": "Publicação de pesquisa aberta com revisão por pares aberta.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Open Research Europe",
+          "url": "https://open-research-europe.ec.europa.eu/",
+          "description": "Plataforma de publicação de acesso aberto.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "ResearchGate",
+          "url": "https://www.researchgate.net/",
+          "description": "Rede social acadêmica e compartilhamento de publicações.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "Academia.edu",
+          "url": "https://www.academia.edu/",
+          "description": "Plataforma para compartilhar artigos.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "Preprints.org",
+          "url": "https://www.preprints.org/",
+          "description": "Servidor de preprints multidisciplinar.",
+          "tags": [
+            "OA",
+            "Free",
+            "RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Periódicos, Revistas e Notícias",
+      "slug": "periódicos-revistas-e-notícias",
+      "resources": [
+        {
+          "name": "Physical Review Letters",
+          "url": "https://journals.aps.org/prl/",
+          "description": "Periódico principal da APS para física.",
+          "tags": [
+            "Freemium",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Physical Review X",
+          "url": "https://journals.aps.org/prx/",
+          "description": "Periódico de acesso aberto da APS.",
+          "tags": [
+            "OA",
+            "CC",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Physical Review Accelerators and Beams",
+          "url": "https://journals.aps.org/prab/",
+          "description": "Ciência de aceleradores de acesso aberto.",
+          "tags": [
+            "OA",
+            "CC",
+            "RSS"
+          ]
+        },
+        {
+          "name": "New Journal of Physics",
+          "url": "https://iopscience.iop.org/journal/1367-2630",
+          "description": "Periódico de acesso aberto do IOP.",
+          "tags": [
+            "OA",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Journal of High Energy Physics",
+          "url": "https://link.springer.com/journal/13130",
+          "description": "Periódico de HEP de acesso aberto sob o SCOAP3.",
+          "tags": [
+            "OA",
+            "RSS"
+          ]
+        },
+        {
+          "name": "European Physical Journal C",
+          "url": "https://link.springer.com/journal/10052",
+          "description": "Periódico de física de partículas de acesso aberto.",
+          "tags": [
+            "OA",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Physics Letters B",
+          "url": "https://www.sciencedirect.com/journal/physics-letters-b",
+          "description": "Acesso aberto sob o SCOAP3.",
+          "tags": [
+            "OA",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Nuclear Physics B",
+          "url": "https://www.sciencedirect.com/journal/nuclear-physics-b",
+          "description": "Acesso aberto sob o SCOAP3.",
+          "tags": [
+            "OA",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Progress of Theoretical and Experimental Physics",
+          "url": "https://academic.oup.com/ptep",
+          "description": "Periódico de acesso aberto da JPS.",
+          "tags": [
+            "OA",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Communications Physics",
+          "url": "https://www.nature.com/commsphys/",
+          "description": "Periódico de física de acesso aberto.",
+          "tags": [
+            "OA",
+            "CC",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Nature Communications",
+          "url": "https://www.nature.com/ncomms/",
+          "description": "Periódico científico amplo de acesso aberto.",
+          "tags": [
+            "OA",
+            "CC",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Science Advances",
+          "url": "https://www.science.org/journal/sciadv",
+          "description": "Periódico multidisciplinar de acesso aberto.",
+          "tags": [
+            "OA",
+            "CC",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Frontiers in Physics",
+          "url": "https://www.frontiersin.org/journals/physics",
+          "description": "Periódico de física de acesso aberto.",
+          "tags": [
+            "OA",
+            "CC",
+            "RSS"
+          ]
+        },
+        {
+          "name": "PNAS",
+          "url": "https://www.pnas.org/",
+          "description": "Periódico multidisciplinar com acesso aberto após embargo.",
+          "tags": [
+            "Freemium",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Reviews of Modern Physics",
+          "url": "https://journals.aps.org/rmp/",
+          "description": "Artigos de revisão de referência.",
+          "tags": [
+            "Freemium",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Reports on Progress in Physics",
+          "url": "https://iopscience.iop.org/journal/0034-4885",
+          "description": "Periódico de revisão que cobre toda a física.",
+          "tags": [
+            "Freemium",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Physics Today",
+          "url": "https://pubs.aip.org/physicstoday",
+          "description": "Revista do American Institute of Physics.",
+          "tags": [
+            "Freemium",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Physics World",
+          "url": "https://physicsworld.com/",
+          "description": "Revista do Institute of Physics.",
+          "tags": [
+            "Freemium",
+            "RSS"
+          ]
+        },
+        {
+          "name": "APS Physics",
+          "url": "https://physics.aps.org/",
+          "description": "Destaques e sinopses dos periódicos da APS.",
+          "tags": [
+            "OA",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "CERN Courier",
+          "url": "https://cerncourier.com/",
+          "description": "Revista internacional de física de altas energias.",
+          "tags": [
+            "OA",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/",
+          "description": "Jornalismo aprofundado sobre física e matemática.",
+          "tags": [
+            "OA",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Phys.org",
+          "url": "https://phys.org/",
+          "description": "Cobertura diária de pesquisa em física e tecnologia.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "ScienceDaily — Physics",
+          "url": "https://www.sciencedaily.com/news/matter_energy/physics/",
+          "description": "Resumos de notícias de pesquisa.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Science News",
+          "url": "https://www.sciencenews.org/",
+          "description": "Jornalismo científico independente.",
+          "tags": [
+            "Freemium",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Nature News",
+          "url": "https://www.nature.com/news",
+          "description": "Notícias da equipe do Nature.",
+          "tags": [
+            "Freemium",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Scientific American",
+          "url": "https://www.scientificamerican.com/",
+          "description": "Divulgação científica popular.",
+          "tags": [
+            "Freemium",
+            "RSS"
+          ]
+        },
+        {
+          "name": "New Scientist",
+          "url": "https://www.newscientist.com/",
+          "description": "Revista semanal de ciência e tecnologia.",
+          "tags": [
+            "Freemium",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Sky & Telescope",
+          "url": "https://skyandtelescope.org/",
+          "description": "Notícias de astronomia e guias de observação.",
+          "tags": [
+            "Freemium",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Astronomy Magazine",
+          "url": "https://www.astronomy.com/",
+          "description": "Notícias e reportagens de astronomia.",
+          "tags": [
+            "Freemium",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Space.com",
+          "url": "https://www.space.com/",
+          "description": "Notícias de ciência e exploração espacial.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Universe Today",
+          "url": "https://www.universetoday.com/",
+          "description": "Notícias de espaço e astronomia.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "SpaceNews",
+          "url": "https://spacenews.com/",
+          "description": "Notícias de indústria e política espacial.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "NASASpaceflight",
+          "url": "https://www.nasaspaceflight.com/",
+          "description": "Notícias e fóruns de voos espaciais.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "IEEE Spectrum",
+          "url": "https://spectrum.ieee.org/",
+          "description": "Notícias de engenharia e física aplicada.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "EurekAlert",
+          "url": "https://www.eurekalert.org/",
+          "description": "Comunicados de imprensa de instituições de pesquisa.",
+          "tags": [
+            "OA",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Retraction Watch",
+          "url": "https://retractionwatch.com/",
+          "description": "Acompanhamento de retratações e integridade científica.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Physics Central",
+          "url": "https://www.physicscentral.com/",
+          "description": "Site de divulgação pública da APS.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Inside Science",
+          "url": "https://www.insidescience.org/",
+          "description": "Notícias científicas para o público do AIP.",
+          "tags": [
+            "OA",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Science News Explores",
+          "url": "https://www.snexplores.org/",
+          "description": "Notícias científicas para estudantes.",
+          "tags": [
+            "OA",
+            "Free",
+            "RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Bancos de Dados, Constantes e Dados de Referência",
+      "slug": "bancos-de-dados-constantes-e-dados-de-referência",
+      "resources": [
+        {
+          "name": "NIST CODATA Constants",
+          "url": "https://physics.nist.gov/cuu/Constants/",
+          "description": "Valores de constantes físicas recomendados internacionalmente.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "NIST Atomic Spectra Database",
+          "url": "https://physics.nist.gov/asd",
+          "description": "Níveis de energia atômica e linhas espectrais.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "NIST Chemistry WebBook",
+          "url": "https://webbook.nist.gov/chemistry/",
+          "description": "Dados termoquímicos e espectroscópicos.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "CODATA",
+          "url": "https://codata.org/",
+          "description": "Comitê de Dados para a Ciência e a Tecnologia.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "BIPM",
+          "url": "https://www.bipm.org/",
+          "description": "Bureau Internacional de Pesos e Medidas.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "The International System of Units (SI Brochure)",
+          "url": "https://www.bipm.org/en/publications/si-brochure",
+          "description": "Definição oficial das unidades do SI.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "NIST",
+          "url": "https://www.nist.gov/",
+          "description": "Instituto Nacional de Padrões e Tecnologia dos Estados Unidos.",
+          "tags": [
+            "Data",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "NPL",
+          "url": "https://www.npl.co.uk/",
+          "description": "Laboratório Físico Nacional do Reino Unido.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "PTB",
+          "url": "https://www.ptb.de/",
+          "description": "Instituto nacional de metrologia da Alemanha.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "IAEA",
+          "url": "https://www.iaea.org/",
+          "description": "Dados nucleares, segurança e aplicações.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "NEA",
+          "url": "https://www.oecd-nea.org/",
+          "description": "Banco de dados da Agência de Energia Nuclear.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "Lambda (NASA CMB data)",
+          "url": "https://lambda.gsfc.nasa.gov/",
+          "description": "Arquivo legado de dados da radiação cósmica de fundo.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "Planck Legacy Archive",
+          "url": "https://pla.esac.esa.int/",
+          "description": "Produtos de dados da missão Planck.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "SkyView",
+          "url": "https://skyview.gsfc.nasa.gov/",
+          "description": "Observatório virtual para imagens do céu.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "CDS Strasbourg",
+          "url": "https://cds.unistra.fr/",
+          "description": "Centros e serviços de dados astronômicos.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "IAU Standards",
+          "url": "https://www.iau.org/publications/",
+          "description": "Convenções de nomenclatura e referência.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "IUPAC",
+          "url": "https://iupac.org/",
+          "description": "Nomenclatura e dados químicos.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "IUPAP",
+          "url": "https://iupap.org/",
+          "description": "União Internacional de Física Pura e Aplicada.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "AIP",
+          "url": "https://www.aip.org/",
+          "description": "American Institute of Physics.",
+          "tags": [
+            "OA",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "APS",
+          "url": "https://www.aps.org/",
+          "description": "American Physical Society.",
+          "tags": [
+            "OA",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Europhysics News",
+          "url": "https://www.europhysicsnews.org/",
+          "description": "Notícias da European Physical Society.",
+          "tags": [
+            "OA",
+            "Free",
+            "RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Feeds RSS e Atom",
+      "slug": "feeds-rss-e-atom",
+      "resources": [
+        {
+          "name": "arXiv RSS",
+          "url": "https://info.arxiv.org/help/rss.html",
+          "description": "Feeds por categoria, como `physics`, `astro-ph`, `hep-th`, `quant-ph` e `cond-mat`.",
+          "tags": [
+            "RSS"
+          ]
+        },
+        {
+          "name": "Phys.org",
+          "url": "https://phys.org/rss-feed/",
+          "description": "Todas as notícias de física.",
+          "tags": [
+            "RSS"
+          ]
+        },
+        {
+          "name": "ScienceDaily Physics",
+          "url": "https://www.sciencedaily.com/rss/matter_energy/physics.xml",
+          "description": "Resumos de pesquisa em física.",
+          "tags": [
+            "RSS"
+          ]
+        },
+        {
+          "name": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/feed/",
+          "description": "Jornalismo aprofundado de física e matemática.",
+          "tags": [
+            "RSS"
+          ]
+        },
+        {
+          "name": "Physics World",
+          "url": "https://physicsworld.com/feed/",
+          "description": "Feed da revista do IOP.",
+          "tags": [
+            "RSS"
+          ]
+        },
+        {
+          "name": "APS Physics",
+          "url": "https://feeds.aps.org/rss/recent/physics.xml",
+          "description": "Destaques e sinopses da APS.",
+          "tags": [
+            "RSS"
+          ]
+        },
+        {
+          "name": "Symmetry Magazine",
+          "url": "https://www.symmetrymagazine.org/rss.xml",
+          "description": "Notícias de física de partículas.",
+          "tags": [
+            "RSS"
+          ]
+        },
+        {
+          "name": "CERN Courier",
+          "url": "https://cerncourier.com/feed/",
+          "description": "Notícias de física de altas energias.",
+          "tags": [
+            "RSS"
+          ]
+        },
+        {
+          "name": "Nature",
+          "url": "https://www.nature.com/nature.rss",
+          "description": "Ciência geral da Nature.",
+          "tags": [
+            "RSS"
+          ]
+        },
+        {
+          "name": "Nature Physics",
+          "url": "https://www.nature.com/nphys.rss",
+          "description": "Pesquisa em física.",
+          "tags": [
+            "RSS"
+          ]
+        },
+        {
+          "name": "Science",
+          "url": "https://www.science.org/rss/news_current.xml",
+          "description": "Feed de notícias da Science.",
+          "tags": [
+            "RSS"
+          ]
+        },
+        {
+          "name": "Science News",
+          "url": "https://www.sciencenews.org/feed",
+          "description": "Cobertura científica independente.",
+          "tags": [
+            "RSS"
+          ]
+        },
+        {
+          "name": "Scientific American",
+          "url": "https://www.scientificamerican.com/platform/syndication/rss/",
+          "description": "Feed de divulgação científica.",
+          "tags": [
+            "RSS"
+          ]
+        },
+        {
+          "name": "New Scientist",
+          "url": "https://www.newscientist.com/feed/home/",
+          "description": "Feed da revista semanal.",
+          "tags": [
+            "RSS"
+          ]
+        },
+        {
+          "name": "Universe Today",
+          "url": "https://www.universetoday.com/feed/",
+          "description": "Notícias espaciais.",
+          "tags": [
+            "RSS"
+          ]
+        },
+        {
+          "name": "Space.com",
+          "url": "https://www.space.com/feeds/all",
+          "description": "Feed de notícias espaciais.",
+          "tags": [
+            "RSS"
+          ]
+        },
+        {
+          "name": "Sky & Telescope",
+          "url": "https://skyandtelescope.org/feed/",
+          "description": "Notícias de observação e astronomia.",
+          "tags": [
+            "RSS"
+          ]
+        },
+        {
+          "name": "NASA Breaking News",
+          "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+          "description": "Anúncios da NASA.",
+          "tags": [
+            "RSS"
+          ]
+        },
+        {
+          "name": "ESA Space Science",
+          "url": "https://www.esa.int/rssfeed/Our_Activities/Space_Science",
+          "description": "Feed da Agência Espacial Europeia.",
+          "tags": [
+            "RSS"
+          ]
+        },
+        {
+          "name": "Fermilab News",
+          "url": "https://news.fnal.gov/feed/",
+          "description": "Notícias e reportagens do Fermilab.",
+          "tags": [
+            "RSS"
+          ]
+        },
+        {
+          "name": "Berkeley Lab News",
+          "url": "https://newscenter.lbl.gov/feed/",
+          "description": "Notícias científicas do Berkeley Lab.",
+          "tags": [
+            "RSS"
+          ]
+        },
+        {
+          "name": "Physics arXiv Blog",
+          "url": "https://phys.org/feeds/",
+          "description": "Feeds de física agregados do Phys.org.",
+          "tags": [
+            "RSS"
+          ]
+        },
+        {
+          "name": "EurekAlert",
+          "url": "https://www.eurekalert.org/rss",
+          "description": "Comunicados de imprensa de pesquisa.",
+          "tags": [
+            "RSS"
+          ]
+        },
+        {
+          "name": "Retraction Watch",
+          "url": "https://retractionwatch.com/feed/",
+          "description": "Notícias de integridade científica.",
+          "tags": [
+            "RSS"
+          ]
+        },
+        {
+          "name": "IEEE Spectrum",
+          "url": "https://spectrum.ieee.org/feeds/feed.rss",
+          "description": "Engenharia e ciência aplicada.",
+          "tags": [
+            "RSS"
+          ]
+        },
+        {
+          "name": "Ars Technica Science",
+          "url": "https://feeds.arstechnica.com/arstechnica/science",
+          "description": "Cobertura científica da Ars Technica.",
+          "tags": [
+            "RSS"
+          ]
+        },
+        {
+          "name": "Phys.org Nanotechnology",
+          "url": "https://phys.org/rss-feed/tags/nanotechnology/",
+          "description": "Feed de pesquisa em nanotecnologia.",
+          "tags": [
+            "RSS"
+          ]
+        },
+        {
+          "name": "Phys.org Quantum Physics",
+          "url": "https://phys.org/rss-feed/tags/quantum+physics/",
+          "description": "Feed de física quântica.",
+          "tags": [
+            "RSS"
+          ]
+        },
+        {
+          "name": "Phys.org Astronomy",
+          "url": "https://phys.org/rss-feed/space-news/astronomy/",
+          "description": "Feed de astronomia.",
+          "tags": [
+            "RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Comunidades, Fóruns e Perguntas e Respostas",
+      "slug": "comunidades-fóruns-e-perguntas-e-respostas",
+      "resources": [
+        {
+          "name": "Physics Stack Exchange",
+          "url": "https://physics.stackexchange.com/",
+          "description": "Perguntas e respostas sobre conceitos e problemas de física.",
+          "tags": [
+            "CC",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Physics Forums",
+          "url": "https://www.physicsforums.com/",
+          "description": "Grande comunidade de discussão sobre todos os ramos da física.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Astronomy Stack Exchange",
+          "url": "https://astronomy.stackexchange.com/",
+          "description": "Perguntas e respostas sobre astronomia e astrofísica.",
+          "tags": [
+            "CC",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Space Exploration Stack Exchange",
+          "url": "https://space.stackexchange.com/",
+          "description": "Perguntas e respostas sobre voos espaciais e exploração.",
+          "tags": [
+            "CC",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Computational Science Stack Exchange",
+          "url": "https://scicomp.stackexchange.com/",
+          "description": "Perguntas e respostas sobre métodos numéricos e computação científica.",
+          "tags": [
+            "CC",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Matter Modeling Stack Exchange",
+          "url": "https://mattermodeling.stackexchange.com/",
+          "description": "Perguntas e respostas sobre modelagem atomística e de materiais.",
+          "tags": [
+            "CC",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Quantum Computing Stack Exchange",
+          "url": "https://quantumcomputing.stackexchange.com/",
+          "description": "Perguntas e respostas sobre informação quântica.",
+          "tags": [
+            "CC",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Mathematics Stack Exchange",
+          "url": "https://math.stackexchange.com/",
+          "description": "Perguntas e respostas sobre a matemática por trás da física.",
+          "tags": [
+            "CC",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Mathematica Stack Exchange",
+          "url": "https://mathematica.stackexchange.com/",
+          "description": "Perguntas e respostas sobre a Wolfram Language na física.",
+          "tags": [
+            "CC",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Stack Overflow",
+          "url": "https://stackoverflow.com/",
+          "description": "Perguntas e respostas de programação para código científico.",
+          "tags": [
+            "CC",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "History of Science and Mathematics Stack Exchange",
+          "url": "https://hsm.stackexchange.com/",
+          "description": "Perguntas e respostas sobre a história da física.",
+          "tags": [
+            "CC",
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Reddit r/Physics",
+          "url": "https://www.reddit.com/r/Physics/",
+          "description": "Discussão geral sobre física.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Reddit r/AskPhysics",
+          "url": "https://www.reddit.com/r/AskPhysics/",
+          "description": "Perguntas respondidas pela comunidade.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Reddit r/PhysicsStudents",
+          "url": "https://www.reddit.com/r/PhysicsStudents/",
+          "description": "Apoio a estudantes de física.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Reddit r/QuantumComputing",
+          "url": "https://www.reddit.com/r/QuantumComputing/",
+          "description": "Comunidade de computação quântica.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Reddit r/astrophysics",
+          "url": "https://www.reddit.com/r/astrophysics/",
+          "description": "Discussão sobre astrofísica.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Reddit r/space",
+          "url": "https://www.reddit.com/r/space/",
+          "description": "Notícias e discussão sobre espaço.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Reddit r/askscience",
+          "url": "https://www.reddit.com/r/askscience/",
+          "description": "Perguntas e respostas científicas moderadas.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Julia Discourse",
+          "url": "https://discourse.julialang.org/",
+          "description": "Comunidade de computação científica em Julia.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Python Discourse",
+          "url": "https://discuss.python.org/",
+          "description": "Fórum oficial da comunidade Python.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Scientific Python Discourse",
+          "url": "https://discuss.scientific-python.org/",
+          "description": "Discussão em todo o ecossistema científico do Python.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "CFD Online Forums",
+          "url": "https://www.cfd-online.com/Forums/",
+          "description": "Comunidade de dinâmica de fluidos computacional.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "LAMMPS Materials Science Community",
+          "url": "https://matsci.org/c/lammps/",
+          "description": "Discussão sobre LAMMPS e simulação atomística.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "GROMACS User Forum",
+          "url": "https://gromacs.bioexcel.eu/",
+          "description": "Suporte a dinâmica molecular.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Quantum ESPRESSO Forum",
+          "url": "https://forum.quantum-espresso.org/",
+          "description": "Suporte ao usuário do QE.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "ABINIT Forum",
+          "url": "https://forum.abinit.org/",
+          "description": "Suporte ao código ABINIT.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Psi4 Forum",
+          "url": "https://forum.psicode.org/",
+          "description": "Comunidade de química quântica.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "ROOT Forum",
+          "url": "https://root-forum.cern.ch/",
+          "description": "Suporte ao ROOT e à análise de HEP.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Geant4 Forum",
+          "url": "https://geant4-forum.web.cern.ch/",
+          "description": "Suporte à simulação com Geant4.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "CERN HEP Software Forum",
+          "url": "https://hepsoftwarefoundation.org/forums.html",
+          "description": "Canais da comunidade de software de HEP.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "Cloudy Nights",
+          "url": "https://www.cloudynights.com/",
+          "description": "Fóruns de astronomia amadora.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Stargazers Lounge",
+          "url": "https://stargazerslounge.com/",
+          "description": "Comunidade de astronomia amadora.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "AAVSO Forums",
+          "url": "https://www.aavso.org/forums",
+          "description": "Comunidade de observação de estrelas variáveis.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "Orbiter Forum",
+          "url": "https://www.orbiter-forum.com/",
+          "description": "Comunidade de simulação de voos espaciais.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Science Forums",
+          "url": "https://www.scienceforums.net/",
+          "description": "Discussão científica geral.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Ask a Mathematician / Ask a Physicist",
+          "url": "https://www.askamathematician.com/",
+          "description": "Respostas a perguntas de física e matemática.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Physics Stack Exchange Chat",
+          "url": "https://chat.stackexchange.com/?tab=site&host=physics.stackexchange.com",
+          "description": "Salas de bate-papo em tempo real.",
+          "tags": [
+            "Free"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Canais e Aulas em Vídeo",
+      "slug": "canais-e-aulas-em-vídeo",
+      "resources": [
+        {
+          "name": "MIT OpenCourseWare (YouTube)",
+          "url": "https://www.youtube.com/@mitocw",
+          "description": "Cursos completos de aulas do MIT.",
+          "tags": [
+            "OA",
+            "CC",
+            "Free"
+          ]
+        },
+        {
+          "name": "Theoretical Minimum (YouTube)",
+          "url": "https://www.youtube.com/@stanfordonline",
+          "description": "Cursos de física teórica de Susskind em Stanford.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Khan Academy (YouTube)",
+          "url": "https://www.youtube.com/@khanacademy",
+          "description": "Fundamentos de física.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Veritasium",
+          "url": "https://www.youtube.com/@veritasium",
+          "description": "Documentários de ciência e física.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "MinutePhysics",
+          "url": "https://www.youtube.com/@minutephysics",
+          "description": "Explicações animadas de conceitos de física.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "3Blue1Brown",
+          "url": "https://www.youtube.com/@3blue1brown",
+          "description": "Matemática visual com fortes conexões com a física.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "PBS Space Time",
+          "url": "https://www.youtube.com/@pbsspacetime",
+          "description": "Mergulhos profundos em astrofísica e física fundamental.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "Fermilab",
+          "url": "https://www.youtube.com/@fermilab",
+          "description": "Física de partículas explicada por pesquisadores.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "Sixty Symbols",
+          "url": "https://www.youtube.com/@sixtysymbols",
+          "description": "Física e astronomia da Universidade de Nottingham.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "Numberphile",
+          "url": "https://www.youtube.com/@numberphile",
+          "description": "Matemática e física matemática.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "Kurzgesagt – In a Nutshell",
+          "url": "https://www.youtube.com/@kurzgesagt",
+          "description": "Tópicos de ciência e física animados.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "ScienceClic English",
+          "url": "https://www.youtube.com/@ScienceClicEN",
+          "description": "Animações de alta qualidade sobre física e relatividade.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "Sabine Hossenfelder",
+          "url": "https://www.youtube.com/@SabineHossenfelder",
+          "description": "Notícias e comentários sobre física.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "Steve Mould",
+          "url": "https://www.youtube.com/@SteveMould",
+          "description": "Demonstrações e experimentos de física.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "The Science Asylum",
+          "url": "https://www.youtube.com/@ScienceAsylum",
+          "description": "Explicações intuitivas de física moderna.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "Up and Atom",
+          "url": "https://www.youtube.com/@upandatom",
+          "description": "Explicadores de física e ciência da computação.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "Looking Glass Universe",
+          "url": "https://www.youtube.com/@LookingGlassUniverse",
+          "description": "Mecânica quântica e a vida na pesquisa.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "Domain of Science",
+          "url": "https://www.youtube.com/@DomainofScience",
+          "description": "Mapas e panoramas de física.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "Eugene Khutoryansky",
+          "url": "https://www.youtube.com/@EugeneKhutoryansky",
+          "description": "Visualizações de relatividade e mecânica quântica.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "Michel van Biezen",
+          "url": "https://www.youtube.com/@MichelvanBiezen",
+          "description": "Problemas resolvidos de física e engenharia.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "Crash Course Physics",
+          "url": "https://www.youtube.com/@crashcourse",
+          "description": "Curso introdutório de física em ritmo acelerado.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "Perimeter Institute",
+          "url": "https://www.youtube.com/@PIOutreach",
+          "description": "Palestras públicas sobre física teórica.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "World Science Festival",
+          "url": "https://www.youtube.com/@WorldScienceFestival",
+          "description": "Conversas com físicos de destaque.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "The Royal Institution",
+          "url": "https://www.youtube.com/@TheRoyalInstitution",
+          "description": "Palestras e demonstrações científicas.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "ICTP (YouTube)",
+          "url": "https://www.youtube.com/@ICTP",
+          "description": "Palestras e escolas do Abdus Salam ICTP.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "Simons Foundation",
+          "url": "https://www.youtube.com/@SimonsFoundation",
+          "description": "Palestras de pesquisa e divulgação científica.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "Quanta Magazine (YouTube)",
+          "url": "https://www.youtube.com/@QuantaScienceChannel",
+          "description": "Vídeos do Quanta.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "CERN (YouTube)",
+          "url": "https://www.youtube.com/@CERN",
+          "description": "Palestras, visitas e atualizações de experimentos.",
+          "tags": [
+            "Free"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Podcasts e Áudio",
+      "slug": "podcasts-e-áudio",
+      "resources": [
+        {
+          "name": "Mindscape — Sean Carroll",
+          "url": "https://www.preposterousuniverse.com/podcast/",
+          "description": "Conversas sobre física, filosofia e complexidade.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "The Joy of Why",
+          "url": "https://www.quantamagazine.org/tag/the-joy-of-why/",
+          "description": "Podcast do Quanta apresentado por Steven Strogatz.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Physics World Weekly",
+          "url": "https://physicsworld.com/podcasts/",
+          "description": "Notícias e entrevistas semanais de física.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Physics Today Podcast",
+          "url": "https://pubs.aip.org/physicstoday/podcasts",
+          "description": "Entrevistas do Physics Today.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Ask a Spaceman!",
+          "url": "https://www.pmsutter.com/shows/askaspaceman",
+          "description": "Paul Sutter responde perguntas dos ouvintes.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Astronomy Cast",
+          "url": "https://www.astronomycast.com/",
+          "description": "Podcast de astronomia de longa duração.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "The Planetary Society Podcast",
+          "url": "https://www.planetary.org/planetary-radio",
+          "description": "Exploração espacial e ciência.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Universe Today Podcast",
+          "url": "https://www.universetoday.com/category/podcasts/",
+          "description": "Notícias espaciais e entrevistas.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "StarTalk",
+          "url": "https://startalkmedia.com/",
+          "description": "Programa de ciência e cultura pop de Neil deGrasse Tyson.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "The Infinite Monkey Cage",
+          "url": "https://www.bbc.co.uk/programmes/b00snr0w",
+          "description": "Painel de comédia científica da BBC.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "BBC Inside Science",
+          "url": "https://www.bbc.co.uk/programmes/b036f7w2",
+          "description": "Notícias científicas semanais.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Science Friday",
+          "url": "https://www.sciencefriday.com/",
+          "description": "Notícias e entrevistas científicas.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Event Horizon",
+          "url": "https://www.youtube.com/@EventHorizonShow",
+          "description": "Entrevistas sobre espaço e física.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "Into the Impossible",
+          "url": "https://briankeating.com/podcast",
+          "description": "Conversas sobre física e cosmologia.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "The Origins Podcast",
+          "url": "https://originsproject.org/",
+          "description": "Conversas longas sobre ciência e cultura.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Ferramentas de Software e Visualização",
+      "slug": "ferramentas-de-software-e-visualização",
+      "resources": [
+        {
+          "name": "LaTeX",
+          "url": "https://www.latex-project.org/",
+          "description": "Sistema de preparação de documentos para redação científica.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Overleaf",
+          "url": "https://www.overleaf.com/",
+          "description": "Editor LaTeX colaborativo online.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "Typst",
+          "url": "https://typst.app/",
+          "description": "Sistema moderno de tipografia para documentos científicos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "MathJax",
+          "url": "https://www.mathjax.org/",
+          "description": "Renderização de matemática em páginas web.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "KaTeX",
+          "url": "https://katex.org/",
+          "description": "Renderização rápida de LaTeX para a web.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "TikZ",
+          "url": "https://tikz.org/",
+          "description": "Gráficos vetoriais programáticos em LaTeX.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "PGFPlots",
+          "url": "https://pgfplots.sourceforge.net/",
+          "description": "Gráficos com qualidade de publicação em LaTeX.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Asymptote",
+          "url": "https://asymptote.sourceforge.io/",
+          "description": "Linguagem de gráficos vetoriais para desenho técnico.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "gnuplot",
+          "url": "http://www.gnuplot.info/",
+          "description": "Ferramenta de plotagem por linha de comando.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Veusz",
+          "url": "https://veusz.github.io/",
+          "description": "Aplicativo de plotagem e gráficos científicos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "LabPlot",
+          "url": "https://labplot.kde.org/",
+          "description": "Análise de dados e plotagem para cientistas.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "SciDAVis",
+          "url": "https://scidavis.sourceforge.net/",
+          "description": "Aplicativo para análise de dados e plotagem.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "ParaView",
+          "url": "https://www.paraview.org/",
+          "description": "Visualização paralela para grandes conjuntos de dados.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "VisIt",
+          "url": "https://visit-dav.github.io/visit-website/",
+          "description": "Visualização paralela interativa.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Plotly",
+          "url": "https://plotly.com/python/",
+          "description": "Gráficos interativos baseados na web.",
+          "tags": [
+            "OS",
+            "Freemium"
+          ]
+        },
+        {
+          "name": "Bokeh",
+          "url": "https://bokeh.org/",
+          "description": "Visualização interativa no navegador para Python.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Observable",
+          "url": "https://observablehq.com/",
+          "description": "Notebooks reativos para dados e visualização.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "Plotly Dash",
+          "url": "https://dash.plotly.com/",
+          "description": "Aplicativos web analíticos para Python.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Desmos",
+          "url": "https://www.desmos.com/",
+          "description": "Calculadora gráfica e matemática interativa.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "GeoGebra",
+          "url": "https://www.geogebra.org/",
+          "description": "Geometria, álgebra e cálculo interativos.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "Manim",
+          "url": "https://www.manim.community/",
+          "description": "Motor de animação para vídeos explicativos de matemática e física.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Inkscape",
+          "url": "https://inkscape.org/",
+          "description": "Editor de gráficos vetoriais para figuras e diagramas.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Blender",
+          "url": "https://www.blender.org/",
+          "description": "Modelagem 3D, animação e visualização científica.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "GIMP",
+          "url": "https://www.gimp.org/",
+          "description": "Editor de imagens raster para figuras.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Krita",
+          "url": "https://krita.org/",
+          "description": "Pintura digital e ilustração.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Excalidraw",
+          "url": "https://excalidraw.com/",
+          "description": "Diagramas com estilo desenhado à mão.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "draw.io",
+          "url": "https://www.drawio.com/",
+          "description": "Diagramas e fluxogramas.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "FFmpeg",
+          "url": "https://ffmpeg.org/",
+          "description": "Processamento multimídia para produção de vídeo.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "OBS Studio",
+          "url": "https://obsproject.com/",
+          "description": "Gravação e transmissão de aulas.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Quarto",
+          "url": "https://quarto.org/",
+          "description": "Sistema de publicação científica e técnica.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Jupyter Book",
+          "url": "https://jupyterbook.org/",
+          "description": "Construa livros com qualidade de publicação a partir de notebooks.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "MyST Markdown",
+          "url": "https://mystmd.org/",
+          "description": "Redação em Markdown para documentos científicos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Sphinx",
+          "url": "https://www.sphinx-doc.org/",
+          "description": "Gerador de documentação para software de pesquisa.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "MkDocs",
+          "url": "https://www.mkdocs.org/",
+          "description": "Gerador rápido de sites estáticos para documentação.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Doxygen",
+          "url": "https://www.doxygen.nl/",
+          "description": "Gerador de documentação para código.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Git",
+          "url": "https://git-scm.com/",
+          "description": "Controle de versão distribuído.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/",
+          "description": "Hospedagem e colaboração para código de pesquisa.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "GitLab",
+          "url": "https://about.gitlab.com/",
+          "description": "Plataforma DevOps com níveis gratuitos para pesquisa.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "Zenodo–GitHub integration",
+          "url": "https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content",
+          "description": "Gere um DOI para uma versão de software.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Instrumentação, Eletrônica e Hardware Aberto",
+      "slug": "instrumentação-eletrônica-e-hardware-aberto",
+      "resources": [
+        {
+          "name": "CERN Open Hardware Licence",
+          "url": "https://ohwr.org/cern_ohl_s_v2.txt",
+          "description": "Licenças de hardware aberto projetadas para instrumentação física.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Open Hardware Repository",
+          "url": "https://ohwr.org/",
+          "description": "Projetos do CERN e da comunidade de hardware aberto.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Open Source Hardware Association",
+          "url": "https://www.oshwa.org/",
+          "description": "Certificação e comunidade para hardware aberto.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Arduino",
+          "url": "https://www.arduino.cc/",
+          "description": "Plataforma de eletrônica de código aberto para instrumentação de laboratório.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Raspberry Pi",
+          "url": "https://www.raspberrypi.org/",
+          "description": "Computador de placa única de baixo custo para experimentos.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "BeagleBone",
+          "url": "https://www.beagleboard.org/",
+          "description": "Computadores de placa única de hardware aberto.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Red Pitaya",
+          "url": "https://redpitaya.com/",
+          "description": "Instrumento de teste e medição de código aberto.",
+          "tags": [
+            "OS",
+            "Freemium"
+          ]
+        },
+        {
+          "name": "Pocket Science Lab (PSLab)",
+          "url": "https://pslab.io/",
+          "description": "Instrumento científico de hardware aberto da FOSSASIA.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "OpenFlexure Microscope",
+          "url": "https://openflexure.org/",
+          "description": "Microscópio de hardware aberto impresso em 3D.",
+          "tags": [
+            "OS",
+            "CC",
+            "Free"
+          ]
+        },
+        {
+          "name": "Open Gamma Detector",
+          "url": "https://github.com/OpenGammaProject/Open-Gamma-Detector",
+          "description": "Espectrômetro de raios gama de hardware aberto.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "CosmicWatch",
+          "url": "http://www.cosmicwatch.lns.mit.edu/",
+          "description": "Detector de múons de mesa para educação.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "CosmicPi",
+          "url": "https://cosmicpi.org/",
+          "description": "Rede distribuída de detectores de raios cósmicos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "HiSPARC",
+          "url": "https://www.hisparc.nl/",
+          "description": "Projeto de ensino médio sobre raios cósmicos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "MightyOhm Geiger Counter",
+          "url": "https://mightyohm.com/blog/products/geiger-counter/",
+          "description": "Kit contador Geiger de hardware aberto.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "PiCar-V / SunFounder kits",
+          "url": "https://www.sunfounder.com/",
+          "description": "Eletrônica educacional e robótica.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "micro:bit",
+          "url": "https://microbit.org/",
+          "description": "Placa programável para ciência e educação.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "ESP32",
+          "url": "https://www.espressif.com/en/products/socs/esp32",
+          "description": "Microcontrolador Wi-Fi de baixo custo para sensores.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "Fritzing",
+          "url": "https://fritzing.org/",
+          "description": "Ferramenta de projeto de circuitos de código aberto.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "KiCad",
+          "url": "https://www.kicad.org/",
+          "description": "Suíte de automação de projeto eletrônico de código aberto.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "OpenSCAD",
+          "url": "https://openscad.org/",
+          "description": "Modelagem 3D programática para hardware de laboratório.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "FreeCAD",
+          "url": "https://www.freecad.org/",
+          "description": "CAD 3D paramétrico de código aberto.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "PyVISA",
+          "url": "https://pyvisa.readthedocs.io/",
+          "description": "Controle instrumentos de laboratório a partir do Python.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "QCoDeS",
+          "url": "https://microsoft.github.io/Qcodes/",
+          "description": "Framework Python para aquisição de dados em laboratórios de física.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "EPICS",
+          "url": "https://epics-controls.org/",
+          "description": "Sistema de controle usado em grandes instalações de física.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Tango Controls",
+          "url": "https://www.tango-controls.org/",
+          "description": "Sistema de controle distribuído para experimentos.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Sardana",
+          "url": "https://sardana-controls.org/",
+          "description": "Framework Python para controle de sincrotron e laboratório.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Bluesky",
+          "url": "https://blueskyproject.io/",
+          "description": "Controle de experimentos e coleta de dados.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Labscript Suite",
+          "url": "https://labscriptsuite.org/",
+          "description": "Software de controle para experimentos de física quântica.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "GNU Radio",
+          "url": "https://www.gnuradio.org/",
+          "description": "Processamento de sinais para rádio e instrumentação.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "sigrok",
+          "url": "https://sigrok.org/",
+          "description": "Análise de sinais e decodificação lógica de código aberto.",
+          "tags": [
+            "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "OpenBCI",
+          "url": "https://openbci.com/",
+          "description": "Hardware de biossensoriamento de código aberto.",
+          "tags": [
+            "OS",
+            "Freemium"
+          ]
+        },
+        {
+          "name": "LabJack",
+          "url": "https://labjack.com/",
+          "description": "Hardware de aquisição de dados com suporte multiplataforma.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "National Instruments myRIO",
+          "url": "https://www.ni.com/",
+          "description": "Aquisição de dados e controle para educação.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "ThingSpeak",
+          "url": "https://thingspeak.com/",
+          "description": "Análise de IoT para experimentos com sensores.",
+          "tags": [
+            "Freemium"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Competições, Olimpíadas e Divulgação",
+      "slug": "competições-olimpíadas-e-divulgação",
+      "resources": [
+        {
+          "name": "International Physics Olympiad (IPhO)",
+          "url": "https://www.ipho-new.org/",
+          "description": "Competição internacional anual para estudantes pré-universitários.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "Asian Physics Olympiad (APhO)",
+          "url": "https://apho.org/",
+          "description": "Olimpíada regional de física.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "European Physics Olympiad (EuPhO)",
+          "url": "https://eupho.ee/",
+          "description": "Competição europeia de física.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "USAPhO and F=ma Exam",
+          "url": "https://www.aapt.org/physicsteam/",
+          "description": "Provas de seleção da equipe de física dos Estados Unidos.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "Physics Bowl",
+          "url": "https://www.aapt.org/Programs/PhysicsBowl/",
+          "description": "Competição de física de ensino médio da AAPT.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "International Young Physicists' Tournament",
+          "url": "https://iypt.org/",
+          "description": "Competição de pesquisa e debate em equipes.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "University Physics Competition",
+          "url": "https://www.uphysicsc.com/",
+          "description": "Competição de modelagem de 48 horas para graduandos.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "CERN Beamline for Schools",
+          "url": "https://beamline-for-schools.web.cern.ch/",
+          "description": "Equipes de ensino médio realizam experimentos no CERN.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "NASA Space Apps Challenge",
+          "url": "https://www.spaceappschallenge.org/",
+          "description": "Hackathon global usando dados abertos da NASA.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "CERN Summer Student Programme",
+          "url": "https://careers.cern/summer",
+          "description": "Programa de pesquisa de verão para estudantes.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "International Astronomical Youth Camp",
+          "url": "https://iayc.org/",
+          "description": "Acampamentos de astronomia para jovens.",
+          "tags": [
+            "Freemium"
+          ]
+        },
+        {
+          "name": "Physics Outreach — APS",
+          "url": "https://www.aps.org/programs/outreach/",
+          "description": "Recursos de engajamento público.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Science Olympiad",
+          "url": "https://www.soinc.org/",
+          "description": "Competições em equipes, incluindo provas de física.",
+          "tags": [
+            "Freemium"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Empregos, Financiamento e Bolsas",
+      "slug": "empregos-financiamento-e-bolsas",
+      "resources": [
+        {
+          "name": "APS Physics Jobs",
+          "url": "https://jobs.aps.org/",
+          "description": "Mural de vagas da American Physical Society.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Physics Today Jobs",
+          "url": "https://jobs.aip.org/",
+          "description": "Vagas em física e áreas relacionadas.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "INSPIRE-HEP Jobs",
+          "url": "https://inspirehep.net/jobs",
+          "description": "Posições em física de altas energias.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Nature Careers",
+          "url": "https://www.nature.com/naturecareers/",
+          "description": "Anúncios globais de vagas em pesquisa.",
+          "tags": [
+            "Freemium",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Science Careers",
+          "url": "https://www.science.org/careers",
+          "description": "Vagas da família de periódicos Science.",
+          "tags": [
+            "Freemium",
+            "RSS"
+          ]
+        },
+        {
+          "name": "EuroScienceJobs",
+          "url": "https://eurosciencejobs.com/",
+          "description": "Posições de pesquisa na Europa.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "Academic Positions",
+          "url": "https://academicpositions.com/",
+          "description": "Vagas acadêmicas no mundo todo.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "CERN Careers",
+          "url": "https://careers.cern/",
+          "description": "Vagas e bolsas no CERN.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "ESA Careers",
+          "url": "https://www.esa.int/About_Us/Careers_at_ESA",
+          "description": "Oportunidades na Agência Espacial Europeia.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "NASA Careers",
+          "url": "https://www.nasa.gov/careers/",
+          "description": "Empregos na NASA.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "USAJOBS",
+          "url": "https://www.usajobs.gov/",
+          "description": "Posições federais de ciência e engenharia dos Estados Unidos.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "Fermilab Jobs",
+          "url": "https://www.fnal.gov/pub/jobs/",
+          "description": "Oportunidades no Fermilab.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "Department of Energy Careers",
+          "url": "https://www.energy.gov/careers",
+          "description": "Posições no DOE e em laboratórios nacionais dos Estados Unidos.",
+          "tags": [
+            "Free"
+          ]
+        },
+        {
+          "name": "New Scientist Jobs",
+          "url": "https://jobs.newscientist.com/",
+          "description": "Vagas em ciência e tecnologia.",
+          "tags": [
+            "Free",
+            "RSS"
+          ]
+        },
+        {
+          "name": "NSF Funding Search",
+          "url": "https://www.nsf.gov/funding/",
+          "description": "Oportunidades da National Science Foundation dos Estados Unidos.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "DOE Early Career Research Program",
+          "url": "https://science.osti.gov/early-career",
+          "description": "Financiamento para pesquisadores em início de carreira.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "NSF CAREER Program",
+          "url": "https://www.nsf.gov/funding/opportunities/career-faculty-early-career-development-program",
+          "description": "Financiamento para professores em início de carreira.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "European Research Council",
+          "url": "https://erc.europa.eu/",
+          "description": "Bolsas de pesquisa de fronteira na Europa.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Marie Skłodowska-Curie Actions",
+          "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/",
+          "description": "Bolsas e auxílios de mobilidade da União Europeia.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Horizon Europe",
+          "url": "https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en",
+          "description": "Programa de financiamento à pesquisa da União Europeia.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Alexander von Humboldt Foundation",
+          "url": "https://www.humboldt-foundation.de/",
+          "description": "Bolsas de pesquisa na Alemanha.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Fulbright Program",
+          "url": "https://fulbrightprogram.org/",
+          "description": "Bolsas de intercâmbio e pesquisa internacionais.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Simons Foundation Funding",
+          "url": "https://www.simonsfoundation.org/funding-opportunities/",
+          "description": "Bolsas em matemática e física.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Sloan Research Fellowships",
+          "url": "https://sloan.org/fellowships/",
+          "description": "Apoio à pesquisa em início de carreira.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        },
+        {
+          "name": "Packard Fellowships",
+          "url": "https://www.packard.org/what-we-fund/science/packard-fellowships-for-science-and-engineering/",
+          "description": "Bolsas de ciência e engenharia.",
+          "tags": [
+            "OA",
+            "Free"
+          ]
+        }
+      ]
+    }
+  ]
+}

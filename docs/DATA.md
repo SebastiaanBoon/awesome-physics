@@ -1,7 +1,8 @@
 # Data Model
 
-`dev/resources.json` is a machine-readable catalogue generated from `README.md`
-by `dev/scripts/parse_readme.py`. Do not edit it by hand; run `make resources`
+`dev/resources.json` (English) and `dev/resources.pt-BR.json` (Portuguese) are
+machine-readable catalogues generated from `README.md` and `README.pt-BR.md` by
+`dev/scripts/parse_readme.py`. Do not edit them by hand; run `make resources`
 instead.
 
 ## Top-level object
@@ -9,7 +10,8 @@ instead.
 | Field | Type | Description |
 | :-- | :-- | :-- |
 | `name` | string | Repository name, `awesome-physics`. |
-| `description` | string | Short description of the list. |
+| `language` | string | BCP 47 language tag (`en`, `pt-BR`). |
+| `description` | string | Short description of the list in that language. |
 | `license` | object | `content` and `code` SPDX identifiers. |
 | `generated_from` | string | The source document (`README.md`). |
 | `count` | integer | Total number of resources. |
