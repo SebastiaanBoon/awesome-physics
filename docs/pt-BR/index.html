@@ -45,7 +45,7 @@ body {
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 header.hero {
-  padding: 3rem 1.25rem 2rem;
+  padding: clamp(1.75rem, 6vw, 3rem) 1.25rem clamp(1.25rem, 4vw, 2rem);
   background: radial-gradient(1200px 400px at 20% -20%, rgba(110,168,254,.25), transparent),
               radial-gradient(900px 400px at 90% -30%, rgba(179,136,255,.22), transparent);
   border-bottom: 1px solid var(--border);
@@ -65,13 +65,24 @@ h1 .emoji { -webkit-text-fill-color: initial; }
 .langswitch .btn.lang + .btn.lang { border-left: 1px solid var(--accent); }
 .langswitch .btn.lang.active { background: var(--accent); color: #fff; font-weight: 600; }
 .langswitch .btn.lang.active:hover { color: #fff; text-decoration: none; }
-.layout { max-width: 1100px; margin: 0 auto; padding: 1.5rem 1.25rem 4rem; display: grid; gap: 2rem; }
-@media (min-width: 900px) { .layout { grid-template-columns: 260px 1fr; align-items: start; } }
-aside { position: sticky; top: 1rem; max-height: calc(100vh - 2rem); overflow: auto; }
+.layout { max-width: 1100px; margin: 0 auto; padding: 1.5rem 1.25rem 4rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.5rem; }
+@media (min-width: 900px) { .layout { grid-template-columns: 260px minmax(0, 1fr); align-items: start; gap: 2rem; } }
 aside h2, .controls h2 { font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
 nav ul { list-style: none; margin: 0; padding: 0; }
 nav a { display: flex; justify-content: space-between; gap: .5rem; padding: .3rem .5rem; border-radius: 8px; color: var(--text); font-size: .9rem; }
 nav a:hover { background: var(--panel-2); text-decoration: none; }
+/* Narrow screens: the section list is a compact chip row, never a sticky
+   overlay above the cards. */
+@media (max-width: 899px) {
+  nav ul { display: flex; gap: .4rem; overflow-x: auto; padding: .1rem .1rem .45rem; -webkit-overflow-scrolling: touch; }
+  nav li { flex: 0 0 auto; }
+  nav a { border: 1px solid var(--border); background: var(--panel); white-space: nowrap; }
+}
+/* Wide screens: the sidebar follows the scroll inside its own column, so it
+   cannot overlap the content. */
+@media (min-width: 900px) {
+  aside { position: sticky; top: 1rem; max-height: calc(100vh - 2rem); overflow: auto; }
+}
 .count { color: var(--muted); font-size: .8rem; font-variant-numeric: tabular-nums; }
 .controls { margin-bottom: 1.5rem; }
 #q {
@@ -100,6 +111,7 @@ nav a:hover { background: var(--panel-2); text-decoration: none; }
 .card:hover { border-color: var(--accent); transform: translateY(-1px); }
 .card-title { margin: 0 0 .35rem; font-size: 1rem; }
 .card-desc { margin: 0 0 .6rem; color: var(--muted); font-size: .9rem; }
+.card-title a, .card-desc { overflow-wrap: anywhere; }
 .card-tags { display: flex; flex-wrap: wrap; gap: .3rem; }
 .tag { font-size: .7rem; padding: .12rem .5rem; border-radius: 999px; border: 1px solid var(--border); color: var(--muted); }
 .tag-os { color: #4ade80; border-color: #4ade8055; }
