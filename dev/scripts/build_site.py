@@ -258,11 +258,11 @@ header.hero {{
               radial-gradient(900px 400px at 90% -30%, rgba(179,136,255,.22), transparent);
   border-bottom: 1px solid var(--border);
 }}
-.hero-inner {{ max-width: 1100px; margin: 0 auto; }}
+.hero-inner {{ max-width: 1100px; margin: 0 auto; text-align: center; }}
 h1 {{ font-size: clamp(2rem, 5vw, 3rem); margin: 0 0 .5rem; letter-spacing: -.02em; }}
 h1 .emoji {{ -webkit-text-fill-color: initial; }}
-.subtitle {{ color: var(--muted); max-width: 70ch; margin: 0 0 1rem; }}
-.hero-links {{ display: flex; flex-wrap: wrap; gap: .6rem; }}
+.subtitle {{ color: var(--muted); max-width: 70ch; margin: 0 auto 1rem; }}
+.hero-links {{ display: flex; flex-wrap: wrap; gap: .6rem; justify-content: center; }}
 .btn {{
   display: inline-block; padding: .5rem .85rem; border: 1px solid var(--border);
   border-radius: 999px; background: var(--panel); color: var(--text); font-size: .9rem;
