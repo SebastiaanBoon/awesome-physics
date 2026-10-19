@@ -105,13 +105,18 @@ nav a:hover { background: var(--panel-2); text-decoration: none; }
 .grid { display: grid; gap: .85rem; }
 @media (min-width: 640px) { .grid { grid-template-columns: repeat(2, 1fr); } }
 .card {
+  position: relative;
   background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius);
   padding: .9rem 1rem; transition: border-color .15s, transform .15s;
+  cursor: pointer;
 }
 .card:hover { border-color: var(--accent); transform: translateY(-1px); }
+.card:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(110,168,254,.2); }
 .card-title { margin: 0 0 .35rem; font-size: 1rem; }
 .card-desc { margin: 0 0 .6rem; color: var(--muted); font-size: .9rem; }
 .card-title a, .card-desc { overflow-wrap: anywhere; }
+/* Make the whole card a tap target: the title link stretches over it. */
+.card-title a::after { content: ""; position: absolute; inset: 0; border-radius: var(--radius); }
 .card-tags { display: flex; flex-wrap: wrap; gap: .3rem; }
 .tag { font-size: .7rem; padding: .12rem .5rem; border-radius: 999px; border: 1px solid var(--border); color: var(--muted); }
 .tag-os { color: #4ade80; border-color: #4ade8055; }
