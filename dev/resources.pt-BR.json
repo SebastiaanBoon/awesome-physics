@@ -7,7 +7,7 @@
     "code": "GPL-3.0-or-later"
   },
   "generated_from": "README.pt-BR.md",
-  "count": 656,
+  "count": 657,
   "sections": [
     {
       "title": "Plataformas de Aprendizagem e Cursos",
@@ -1700,7 +1700,16 @@
         {
           "name": "NASA ADS",
           "url": "https://ui.adsabs.harvard.edu/",
-          "description": "Banco de dados bibliográfico para astronomia e física.",
+          "description": "Banco de dados bibliográfico para astronomia e física; em transição para o SciX em 16 de novembro de 2026.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "SciX (Science Explorer)",
+          "url": "https://scixplorer.org/",
+          "description": "Plataforma de descoberta e sucessora do ADS, cobrindo astrofísica, heliofísica, ciência planetária e ciências da Terra.",
           "tags": [
             "Data",
             "Free"

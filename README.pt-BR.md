@@ -260,7 +260,8 @@ Contribuições são bem-vindas — leia o [CONTRIBUTING.md](CONTRIBUTING.md) e 
 
 ## Astronomia, Espaço e Astrofísica
 
-- [NASA ADS](https://ui.adsabs.harvard.edu/) - Banco de dados bibliográfico para astronomia e física. `[Data]` `[Free]`
+- [NASA ADS](https://ui.adsabs.harvard.edu/) - Banco de dados bibliográfico para astronomia e física; em transição para o SciX em 16 de novembro de 2026. `[Data]` `[Free]`
+- [SciX (Science Explorer)](https://scixplorer.org/) - Plataforma de descoberta e sucessora do ADS, cobrindo astrofísica, heliofísica, ciência planetária e ciências da Terra. `[Data]` `[Free]`
 - [arXiv astro-ph](https://arxiv.org/list/astro-ph/recent) - Preprints de astronomia e astrofísica. `[OA]` `[Free]` `[RSS]`
 - [SIMBAD](http://simbad.u-strasbg.fr/) - Banco de dados de referência para objetos astronômicos. `[Data]` `[Free]`
 - [VizieR](https://vizier.cds.unistra.fr/) - Serviço de catálogos do CDS. `[Data]` `[Free]`

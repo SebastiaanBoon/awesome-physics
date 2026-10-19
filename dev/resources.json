@@ -7,7 +7,7 @@
     "code": "GPL-3.0-or-later"
   },
   "generated_from": "README.md",
-  "count": 656,
+  "count": 657,
   "sections": [
     {
       "title": "Learning Platforms and Courses",
@@ -1700,7 +1700,16 @@
         {
           "name": "NASA ADS",
           "url": "https://ui.adsabs.harvard.edu/",
-          "description": "Bibliographic database for astronomy and physics.",
+          "description": "Bibliographic database for astronomy and physics; transitioning to SciX on 16 November 2026.",
+          "tags": [
+            "Data",
+            "Free"
+          ]
+        },
+        {
+          "name": "SciX (Science Explorer)",
+          "url": "https://scixplorer.org/",
+          "description": "Discovery platform and successor to ADS, covering astrophysics, heliophysics, planetary science, and Earth science.",
           "tags": [
             "Data",
             "Free"
