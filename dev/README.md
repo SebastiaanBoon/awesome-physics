@@ -1,0 +1,105 @@
+# Development Guide
+
+This folder (`dev/`) contains everything you need to develop, validate, and
+maintain the Awesome Physics list. It also contains the open licensing standard
+used by the project: the **Creative Commons** license texts, in full.
+
+## Layout
+
+```
+dev/
+├── README.md                     This file.
+├── STANDARDS.md                  The open standards and licenses used.
+├── checklist.md                  Reviewer and contributor checklist.
+├── Makefile                      Common maintenance tasks.
+├── feeds.opml                    Generated: importable RSS/Atom feed list.
+├── resources.json                Generated: structured catalogue of every entry.
+├── data/
+│   └── feeds.csv                 Source of truth for RSS/Atom feeds.
+├── templates/
+│   ├── resource.md               Template for a single list entry.
+│   ├── section.md                Template for a new section.
+│   └── pull-request.md           Pull request description template.
+├── scripts/
+│   ├── parse_readme.py           README.md  -> resources.json
+│   ├── generate_opml.py          feeds.csv  -> feeds.opml
+│   ├── validate.py               Structural checks on README.md.
+│   └── check_links.py            HTTP link checker for README.md.
+├── LICENSE-CC-BY-4.0.txt         Full Creative Commons Attribution 4.0 text.
+└── LICENSE-CC0-1.0.txt           Full Creative Commons CC0 1.0 text.
+```
+
+## Requirements
+
+- Python 3.9 or newer (standard library only for the default scripts).
+- `make` (optional, for the convenience targets).
+- Network access for `check_links.py`.
+
+No third-party Python packages are required. `make links` uses only the standard
+library so it works in minimal environments and in CI.
+
+## Common tasks
+
+```sh
+make validate     # check the structure and tags of README.md
+make resources    # regenerate dev/resources.json
+make opml         # regenerate dev/feeds.opml from dev/data/feeds.csv
+make links        # check every URL in README.md (network required)
+make all          # resources + opml + validate
+```
+
+Run a script directly if you prefer:
+
+```sh
+python3 dev/scripts/validate.py
+python3 dev/scripts/check_links.py --concurrency 16 --timeout 15
+```
+
+## Workflow for a change
+
+1. Edit `README.md` (and `dev/data/feeds.csv` if you add a feed).
+2. Run `make all` and `make links`.
+3. Commit the README change and the regenerated artifacts together.
+4. Open a pull request.
+
+## Adding an RSS or Atom feed
+
+Feeds live in `dev/data/feeds.csv` with the columns:
+
+```csv
+title,url,htmlUrl,category
+```
+
+- `title` — human-readable feed name.
+- `url` — the feed URL (RSS or Atom XML).
+- `htmlUrl` — the human-facing website.
+- `category` — one of the OPML categories (for example `Physics`, `Astronomy`).
+
+Then regenerate the OPML file:
+
+```sh
+make opml
+```
+
+The generated `feeds.opml` can be imported into any feed reader.
+
+## Adding a section
+
+1. Add the section to the table of contents in `README.md`, keeping the anchor
+   format produced by GitHub (`#lowercase-with-dashes`).
+2. Add the `## Section Name` heading in the body.
+3. Add at least three entries before proposing the section.
+
+The validator checks that the table of contents and the headings match.
+
+## Relationship to the main README
+
+`README.md` is the single source of truth for list entries. `resources.json` and
+`feeds.opml` are generated artifacts and should never be edited by hand.
+
+## Licensing
+
+- Prose, documentation, and the list: **CC BY 4.0**.
+- Scripts, Makefile, and configuration: **CC0 1.0**.
+
+Full texts are in this folder. See [STANDARDS.md](STANDARDS.md) for details.

@@ -1,0 +1,38 @@
+title,url,htmlUrl,category
+arXiv Physics,https://export.arxiv.org/rss/physics,https://arxiv.org/list/physics/recent,Preprints
+arXiv Astrophysics,https://export.arxiv.org/rss/astro-ph,https://arxiv.org/list/astro-ph/recent,Preprints
+arXiv Condensed Matter,https://export.arxiv.org/rss/cond-mat,https://arxiv.org/list/cond-mat/recent,Preprints
+arXiv General Relativity,https://export.arxiv.org/rss/gr-qc,https://arxiv.org/list/gr-qc/recent,Preprints
+arXiv High Energy Physics - Theory,https://export.arxiv.org/rss/hep-th,https://arxiv.org/list/hep-th/recent,Preprints
+arXiv High Energy Physics - Phenomenology,https://export.arxiv.org/rss/hep-ph,https://arxiv.org/list/hep-ph/recent,Preprints
+arXiv Nuclear Theory,https://export.arxiv.org/rss/nucl-th,https://arxiv.org/list/nucl-th/recent,Preprints
+arXiv Quantum Physics,https://export.arxiv.org/rss/quant-ph,https://arxiv.org/list/quant-ph/recent,Preprints
+Phys.org,https://phys.org/rss-feed/,https://phys.org/,Physics News
+Phys.org Quantum Physics,https://phys.org/rss-feed/tags/quantum+physics/,https://phys.org/,Physics News
+Phys.org Astronomy,https://phys.org/rss-feed/space-news/astronomy/,https://phys.org/,Astronomy and Space
+ScienceDaily Physics,https://www.sciencedaily.com/rss/matter_energy/physics.xml,https://www.sciencedaily.com/news/matter_energy/physics/,Physics News
+Quanta Magazine,https://www.quantamagazine.org/feed/,https://www.quantamagazine.org/,Physics News
+Physics World,https://physicsworld.com/feed/,https://physicsworld.com/,Physics News
+APS Physics,https://feeds.aps.org/rss/recent/physics.xml,https://physics.aps.org/,Physics News
+Symmetry Magazine,https://www.symmetrymagazine.org/rss.xml,https://www.symmetrymagazine.org/,Particle Physics
+CERN Courier,https://cerncourier.com/feed/,https://cerncourier.com/,Particle Physics
+Nature,https://www.nature.com/nature.rss,https://www.nature.com/,Journals
+Nature Physics,https://www.nature.com/nphys.rss,https://www.nature.com/nphys/,Journals
+Science News,https://www.science.org/rss/news_current.xml,https://www.science.org/,Journals
+Science News Magazine,https://www.sciencenews.org/feed,https://www.sciencenews.org/,Physics News
+Scientific American,https://www.scientificamerican.com/platform/syndication/rss/,https://www.scientificamerican.com/,Physics News
+New Scientist,https://www.newscientist.com/feed/home/,https://www.newscientist.com/,Physics News
+Universe Today,https://www.universetoday.com/feed/,https://www.universetoday.com/,Astronomy and Space
+Space.com,https://www.space.com/feeds/all,https://www.space.com/,Astronomy and Space
+Sky & Telescope,https://skyandtelescope.org/feed/,https://skyandtelescope.org/,Astronomy and Space
+NASA Breaking News,https://www.nasa.gov/rss/dyn/breaking_news.rss,https://www.nasa.gov/,Astronomy and Space
+ESA Space Science,https://www.esa.int/rssfeed/Our_Activities/Space_Science,https://www.esa.int/,Astronomy and Space
+SpaceWeather.com,https://spaceweather.com/rss.xml,https://spaceweather.com/,Astronomy and Space
+Fermilab News,https://news.fnal.gov/feed/,https://news.fnal.gov/,Particle Physics
+Berkeley Lab News,https://newscenter.lbl.gov/feed/,https://newscenter.lbl.gov/,Physics News
+EurekAlert,https://www.eurekalert.org/rss,https://www.eurekalert.org/,Physics News
+Retraction Watch,https://retractionwatch.com/feed/,https://retractionwatch.com/,Research
+IEEE Spectrum,https://spectrum.ieee.org/feeds/feed.rss,https://spectrum.ieee.org/,Software and Tools
+Ars Technica Science,https://feeds.arstechnica.com/arstechnica/science,https://arstechnica.com/science/,Physics News
+arXiv RSS documentation,https://info.arxiv.org/help/rss.html,https://arxiv.org/,Preprints
+INSPIRE-HEP,https://inspirehep.net/,https://inspirehep.net/,Particle Physics

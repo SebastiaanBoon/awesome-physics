@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Awesome Physics - RSS and Atom feeds</title>
+    <dateCreated>Mon, 19 Oct 2026 00:00:00 GMT</dateCreated>
+    <ownerName>Awesome Physics contributors</ownerName>
+    <ownerEmail>awesome-physics@example.org</ownerEmail>
+  </head>
+  <body>
+    <outline text="Preprints" title="Preprints">
+      <outline type="rss" text="arXiv Physics" title="arXiv Physics" xmlUrl="https://export.arxiv.org/rss/physics" htmlUrl="https://arxiv.org/list/physics/recent" />
+      <outline type="rss" text="arXiv Astrophysics" title="arXiv Astrophysics" xmlUrl="https://export.arxiv.org/rss/astro-ph" htmlUrl="https://arxiv.org/list/astro-ph/recent" />
+      <outline type="rss" text="arXiv Condensed Matter" title="arXiv Condensed Matter" xmlUrl="https://export.arxiv.org/rss/cond-mat" htmlUrl="https://arxiv.org/list/cond-mat/recent" />
+      <outline type="rss" text="arXiv General Relativity" title="arXiv General Relativity" xmlUrl="https://export.arxiv.org/rss/gr-qc" htmlUrl="https://arxiv.org/list/gr-qc/recent" />
+      <outline type="rss" text="arXiv High Energy Physics - Theory" title="arXiv High Energy Physics - Theory" xmlUrl="https://export.arxiv.org/rss/hep-th" htmlUrl="https://arxiv.org/list/hep-th/recent" />
+      <outline type="rss" text="arXiv High Energy Physics - Phenomenology" title="arXiv High Energy Physics - Phenomenology" xmlUrl="https://export.arxiv.org/rss/hep-ph" htmlUrl="https://arxiv.org/list/hep-ph/recent" />
+      <outline type="rss" text="arXiv Nuclear Theory" title="arXiv Nuclear Theory" xmlUrl="https://export.arxiv.org/rss/nucl-th" htmlUrl="https://arxiv.org/list/nucl-th/recent" />
+      <outline type="rss" text="arXiv Quantum Physics" title="arXiv Quantum Physics" xmlUrl="https://export.arxiv.org/rss/quant-ph" htmlUrl="https://arxiv.org/list/quant-ph/recent" />
+      <outline type="rss" text="arXiv RSS documentation" title="arXiv RSS documentation" xmlUrl="https://info.arxiv.org/help/rss.html" htmlUrl="https://arxiv.org/" />
+    </outline>
+    <outline text="Physics News" title="Physics News">
+      <outline type="rss" text="Phys.org" title="Phys.org" xmlUrl="https://phys.org/rss-feed/" htmlUrl="https://phys.org/" />
+      <outline type="rss" text="Phys.org Quantum Physics" title="Phys.org Quantum Physics" xmlUrl="https://phys.org/rss-feed/tags/quantum+physics/" htmlUrl="https://phys.org/" />
+      <outline type="rss" text="ScienceDaily Physics" title="ScienceDaily Physics" xmlUrl="https://www.sciencedaily.com/rss/matter_energy/physics.xml" htmlUrl="https://www.sciencedaily.com/news/matter_energy/physics/" />
+      <outline type="rss" text="Quanta Magazine" title="Quanta Magazine" xmlUrl="https://www.quantamagazine.org/feed/" htmlUrl="https://www.quantamagazine.org/" />
+      <outline type="rss" text="Physics World" title="Physics World" xmlUrl="https://physicsworld.com/feed/" htmlUrl="https://physicsworld.com/" />
+      <outline type="rss" text="APS Physics" title="APS Physics" xmlUrl="https://feeds.aps.org/rss/recent/physics.xml" htmlUrl="https://physics.aps.org/" />
+      <outline type="rss" text="Science News Magazine" title="Science News Magazine" xmlUrl="https://www.sciencenews.org/feed" htmlUrl="https://www.sciencenews.org/" />
+      <outline type="rss" text="Scientific American" title="Scientific American" xmlUrl="https://www.scientificamerican.com/platform/syndication/rss/" htmlUrl="https://www.scientificamerican.com/" />
+      <outline type="rss" text="New Scientist" title="New Scientist" xmlUrl="https://www.newscientist.com/feed/home/" htmlUrl="https://www.newscientist.com/" />
+      <outline type="rss" text="Berkeley Lab News" title="Berkeley Lab News" xmlUrl="https://newscenter.lbl.gov/feed/" htmlUrl="https://newscenter.lbl.gov/" />
+      <outline type="rss" text="EurekAlert" title="EurekAlert" xmlUrl="https://www.eurekalert.org/rss" htmlUrl="https://www.eurekalert.org/" />
+      <outline type="rss" text="Ars Technica Science" title="Ars Technica Science" xmlUrl="https://feeds.arstechnica.com/arstechnica/science" htmlUrl="https://arstechnica.com/science/" />
+    </outline>
+    <outline text="Astronomy and Space" title="Astronomy and Space">
+      <outline type="rss" text="Phys.org Astronomy" title="Phys.org Astronomy" xmlUrl="https://phys.org/rss-feed/space-news/astronomy/" htmlUrl="https://phys.org/" />
+      <outline type="rss" text="Universe Today" title="Universe Today" xmlUrl="https://www.universetoday.com/feed/" htmlUrl="https://www.universetoday.com/" />
+      <outline type="rss" text="Space.com" title="Space.com" xmlUrl="https://www.space.com/feeds/all" htmlUrl="https://www.space.com/" />
+      <outline type="rss" text="Sky &amp; Telescope" title="Sky &amp; Telescope" xmlUrl="https://skyandtelescope.org/feed/" htmlUrl="https://skyandtelescope.org/" />
+      <outline type="rss" text="NASA Breaking News" title="NASA Breaking News" xmlUrl="https://www.nasa.gov/rss/dyn/breaking_news.rss" htmlUrl="https://www.nasa.gov/" />
+      <outline type="rss" text="ESA Space Science" title="ESA Space Science" xmlUrl="https://www.esa.int/rssfeed/Our_Activities/Space_Science" htmlUrl="https://www.esa.int/" />
+      <outline type="rss" text="SpaceWeather.com" title="SpaceWeather.com" xmlUrl="https://spaceweather.com/rss.xml" htmlUrl="https://spaceweather.com/" />
+    </outline>
+    <outline text="Particle Physics" title="Particle Physics">
+      <outline type="rss" text="Symmetry Magazine" title="Symmetry Magazine" xmlUrl="https://www.symmetrymagazine.org/rss.xml" htmlUrl="https://www.symmetrymagazine.org/" />
+      <outline type="rss" text="CERN Courier" title="CERN Courier" xmlUrl="https://cerncourier.com/feed/" htmlUrl="https://cerncourier.com/" />
+      <outline type="rss" text="Fermilab News" title="Fermilab News" xmlUrl="https://news.fnal.gov/feed/" htmlUrl="https://news.fnal.gov/" />
+      <outline type="rss" text="INSPIRE-HEP" title="INSPIRE-HEP" xmlUrl="https://inspirehep.net/" htmlUrl="https://inspirehep.net/" />
+    </outline>
+    <outline text="Journals" title="Journals">
+      <outline type="rss" text="Nature" title="Nature" xmlUrl="https://www.nature.com/nature.rss" htmlUrl="https://www.nature.com/" />
+      <outline type="rss" text="Nature Physics" title="Nature Physics" xmlUrl="https://www.nature.com/nphys.rss" htmlUrl="https://www.nature.com/nphys/" />
+      <outline type="rss" text="Science News" title="Science News" xmlUrl="https://www.science.org/rss/news_current.xml" htmlUrl="https://www.science.org/" />
+    </outline>
+    <outline text="Research" title="Research">
+      <outline type="rss" text="Retraction Watch" title="Retraction Watch" xmlUrl="https://retractionwatch.com/feed/" htmlUrl="https://retractionwatch.com/" />
+    </outline>
+    <outline text="Software and Tools" title="Software and Tools">
+      <outline type="rss" text="IEEE Spectrum" title="IEEE Spectrum" xmlUrl="https://spectrum.ieee.org/feeds/feed.rss" htmlUrl="https://spectrum.ieee.org/" />
+    </outline>
+  </body>
+</opml>

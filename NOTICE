@@ -1,0 +1,29 @@
+Awesome Physics
+Copyright (c) 2026 Awesome Physics contributors
+
+The contents of this repository are made available under two Creative Commons
+licenses, depending on the nature of the material:
+
+1. Documentation and content — README.md, CONTRIBUTING.md, CODE_OF_CONDUCT.md,
+   the documentation in docs/ and dev/, and the descriptions in dev/resources.json.
+
+   Licensed under the Creative Commons Attribution 4.0 International License
+   (CC BY 4.0). You are free to share and adapt the material for any purpose,
+   including commercially, as long as you give appropriate credit.
+
+   Full text: LICENSE and dev/LICENSE-CC-BY-4.0.txt
+   Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+
+2. Code and configuration — the scripts in dev/scripts/, the Makefile, the
+   GitHub Actions workflows, and other machine-readable configuration.
+
+   Dedicated to the public domain under the Creative Commons CC0 1.0 Universal
+   Public Domain Dedication (CC0 1.0). You can copy, modify, and distribute the
+   work without asking permission.
+
+   Full text: LICENSE-CODE and dev/LICENSE-CC0-1.0.txt
+   Human-readable summary: https://creativecommons.org/publicdomain/zero/1.0/
+
+This list links to third-party resources. Those resources keep their own
+licenses and terms of use; the licenses above apply only to the material in
+this repository. Trademarks and project names belong to their respective owners.
