@@ -7,7 +7,7 @@
     "code": "GPL-3.0-or-later"
   },
   "generated_from": "README.md",
-  "count": 657,
+  "count": 658,
   "sections": [
     {
       "title": "Learning Platforms and Courses",
@@ -543,6 +543,14 @@
           "description": "Easy Java/JavaScript Simulations authoring tools.",
           "tags": [
             "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Gravity Golf (ArtiGram)",
+          "url": "https://artigram.cafeboon.com/p/dh7qraw",
+          "description": "A slingshot puzzle in 12 levels where you bend one probe around pulling bodies to reach the hole.",
+          "tags": [
             "Free"
           ]
         }

@@ -7,7 +7,7 @@
     "code": "GPL-3.0-or-later"
   },
   "generated_from": "README.pt-BR.md",
-  "count": 657,
+  "count": 658,
   "sections": [
     {
       "title": "Plataformas de Aprendizagem e Cursos",
@@ -543,6 +543,14 @@
           "description": "Ferramentas de autoria Easy Java/JavaScript Simulations.",
           "tags": [
             "OS",
+            "Free"
+          ]
+        },
+        {
+          "name": "Gravity Golf (ArtiGram)",
+          "url": "https://artigram.cafeboon.com/p/dh7qraw",
+          "description": "Um quebra-cabeça de estilingue gravitacional em 12 níveis, em que você curva uma sonda ao redor de corpos que a atraem para chegar ao buraco.",
+          "tags": [
             "Free"
           ]
         }

@@ -122,6 +122,7 @@ Contributions are welcome — please read [CONTRIBUTING.md](CONTRIBUTING.md) and
 - [Labster](https://www.labster.com/) - Virtual laboratory simulations for universities. `[Freemium]`
 - [Wolfram Demonstrations Project](https://demonstrations.wolfram.com/topics/Physics/) - Thousands of interactive physics demonstrations. `[Freemium]`
 - [Open Source Physics Tracker and EJS](https://www.compadre.org/osp/items/detail.cfm?ID=13426) - Easy Java/JavaScript Simulations authoring tools. `[OS]` `[Free]`
+- [Gravity Golf (ArtiGram)](https://artigram.cafeboon.com/p/dh7qraw) - A slingshot puzzle in 12 levels where you bend one probe around pulling bodies to reach the hole. `[Free]`
 
 ## Computational Physics and Simulation Software
 

@@ -122,6 +122,7 @@ Contribuições são bem-vindas — leia o [CONTRIBUTING.md](CONTRIBUTING.md) e 
 - [Labster](https://www.labster.com/) - Simulações de laboratório virtual para universidades. `[Freemium]`
 - [Wolfram Demonstrations Project](https://demonstrations.wolfram.com/topics/Physics/) - Milhares de demonstrações interativas de física. `[Freemium]`
 - [Open Source Physics Tracker and EJS](https://www.compadre.org/osp/items/detail.cfm?ID=13426) - Ferramentas de autoria Easy Java/JavaScript Simulations. `[OS]` `[Free]`
+- [Gravity Golf (ArtiGram)](https://artigram.cafeboon.com/p/dh7qraw) - Um quebra-cabeça de estilingue gravitacional em 12 níveis, em que você curva uma sonda ao redor de corpos que a atraem para chegar ao buraco. `[Free]`
 
 ## Física Computacional e Software de Simulação
 
